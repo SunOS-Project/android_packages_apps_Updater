@@ -46,6 +46,7 @@ import org.nameless.updates.controller.UpdaterController;
 import org.nameless.updates.misc.Constants;
 import org.nameless.updates.misc.StringGenerator;
 import org.nameless.updates.misc.Utils;
+import org.nameless.updates.model.Update;
 import org.nameless.updates.model.UpdateInfo;
 import org.nameless.updates.model.UpdateStatus;
 
@@ -381,7 +382,8 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
 
         deleteAction.setVisible(canDelete);
         exportAction.setVisible(
-                Utils.getPersistentStatus(mContext) == UpdateStatus.Persistent.VERIFIED);
+                Utils.getPersistentStatus(mContext) == UpdateStatus.Persistent.VERIFIED &&
+                !mUpdate.getDownloadId().equals(Update.LOCAL_ID));
 
         popupMenu.setOnMenuItemClickListener(item -> {
             switch (item.getItemId()) {
