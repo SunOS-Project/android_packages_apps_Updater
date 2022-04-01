@@ -151,6 +151,10 @@ public class Utils {
         return String.format(Constants.OTA_URL, getVersion(), getDevice());
     }
 
+    public static String getChangelogURL(long unixTimestamp) {
+        return String.format(Constants.CHANGELOG_URL, getVersion(), getDevice(), StringGenerator.getChangelogDate(unixTimestamp));
+    }
+
     public static void triggerUpdate(Context context) {
         final Intent intent = new Intent(context, UpdaterService.class);
         intent.setAction(UpdaterService.ACTION_INSTALL_UPDATE);
