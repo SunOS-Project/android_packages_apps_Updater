@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
@@ -16,6 +17,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
@@ -338,7 +340,33 @@ public class ExtrasFragment extends Fragment {
 
             donateCard.setOnClickListener(v -> {
                 Utils.doHapticFeedback(getContext(), mVibrator);
-                openUrl(donateList[device_index]);
+                if (isChineseUser(getContext())) {
+                    AlertDialog payMethod = new AlertDialog.Builder(getContext())
+                        .setTitle("选择支付方式")
+                        .setItems(new String[] {"支付宝", "微信", "PayPal"}, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                if (i == 2) {
+                                    openUrl(donateList[device_index]);
+                                } else {
+                                    ImageView QRCode = new ImageView(getContext());
+                                    QRCode.setImageResource(i == 0 ? R.drawable.ic_alipay : R.drawable.ic_wechat);
+                                    AlertDialog QRDialog = new AlertDialog.Builder(getContext()).
+                                        setPositiveButton("确定", new DialogInterface.OnClickListener() {                     
+                                            @Override
+                                            public void onClick(DialogInterface dialogInterface, int i) {
+                                                dialogInterface.dismiss();
+                                            }
+                                        }).setView(QRCode).create();
+                                    QRDialog.show();
+                                }
+                            }
+                        })
+                        .create();
+                    payMethod.show();
+                } else {
+                    openUrl(donateList[device_index]);
+                }
             });
             donateCard.setClickable(true);
             donateCard.setVisibility(View.VISIBLE);
@@ -369,5 +397,9 @@ public class ExtrasFragment extends Fragment {
         } catch (Exception ex) {
             showSnackbar(R.string.error_open_url, Snackbar.LENGTH_SHORT);
         }
+    }
+
+    private static boolean isChineseUser(Context context) {
+        return context.getResources().getConfiguration().locale.getCountry().equals("CN");
     }
 }
