@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App name -->
+    <string name="app_name">Обновление системы</string>
+    <!-- Notifications -->
+    <string name="export_channel_title">Завершение экспорта</string>
+    <string name="new_updates_channel_title">Новые обновления</string>
+    <string name="ongoing_channel_title">Текущие загрузки</string>
+    <string name="update_failed_channel_title">Сбой обновления</string>
+    <string name="verification_failed_notification">Проверка не удалась</string>
+    <string name="verifying_download_notification">Проверка обновления</string>
+    <string name="downloading_notification">Загрузка</string>
+    <string name="download_paused_notification">Загрузка приостановлена</string>
+    <string name="download_paused_error_notification">Ошибка загрузки</string>
+    <string name="download_completed_notification">Загрузка завершена</string>
+    <string name="download_starting_notification">Начало загрузки</string>
+    <string name="update_failed_notification">Сбой обновления</string>
+    <string name="check_for_update">Проверить обновления</string>
+    <!-- Menu -->
+    <string name="menu_delete_update">Удалить</string>
+    <string name="menu_export_update">Экспорт обновления</string>
+    <!-- General -->
+    <string name="update_found_notification">Доступно обновление системы</string>
+    <string name="snack_no_updates_found">Новые обновления не найдены</string>
+    <string name="snack_updates_check_failed">Проверка обновления не удалась. Пожалуйста, проверьте подключение к Интернету и повторите попытку позже.</string>
+    <string name="snack_download_failed">Загрузка не удалась. Пожалуйста, проверьте подключение к Интернету и повторите попытку позже.</string>
+    <string name="snack_download_verification_failed">Проверка обновления не удалась.</string>
+    <string name="snack_download_verified">Загрузка завершена.</string>
+    <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> из <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> из <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="list_verifying_update">Проверка обновления</string>
+    <string name="list_no_updates">Новые обновления не найдены.</string>
+    <string name="blocked_update_dialog_title">Обновление заблокировано</string>
+    <string name="blocked_update_dialog_summary">Это обновление требует ручной процедуры чистой установки (очистка/форматирование раздела данных перед установкой обновления). Пожалуйста, загрузите обновление с нашего сайта, перезагрузитесь в режим восстановления и следуйте инструкциям.</string>
+    <!-- Actions -->
+    <string name="action_download">Загрузить</string>
+    <string name="action_pause">Пауза</string>
+    <string name="action_resume">Возобновить</string>
+    <string name="action_install">Установить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="confirm_delete_dialog_title">Удалить файл</string>
+    <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления?</string>
+    <string name="pause_button">Пауза</string>
+    <string name="resume_button">Возобновить</string>
+    <string name="reboot">Перезагрузить</string>
+    <string name="reboot_needed_dialog_title">Требуется перезагрузка</string>
+    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted.\n\nIf you want to keep magisk installed, please click \'cancel\' and flash magisk to the new slot before reboot.\n\nDo you want to restart now?</string>
+    <string name="details_button">Список изменений</string>
+    <!-- Installation -->
+    <string name="apply_update_dialog_title">Применить обновление</string>
+    <string name="apply_update_dialog_message">Сейчас вы обновитесь до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЕсли вы нажмете <xliff:g id="ok">%2$s</xliff:g>, устройство перезагрузится в режиме восстановления для установки обновления.\n\nПримечание: Эта функция требует совместимого Recovery, иначе обновления придется устанавливать вручную.</string>
+    <string name="apply_update_dialog_message_ab">Вы собираетесь обновить систему до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЕсли вы нажмете <xliff:g id="ok">%2$s</xliff:g>, устройство начнет установку в фоновом режиме.\n\nПосле завершения вам будет предложено перезагрузиться.</string>
+    <string name="installing_update">Установка пакета обновления</string>
+    <string name="installing_update_error">Установка не удалась</string>
+    <string name="installing_update_finished">Обновление установлено</string>
+    <string name="finalizing_package">Завершение установки обновления</string>
+    <string name="dialog_prepare_zip_message">Предварительная подготовка обновления</string>
+    <string name="dialog_battery_low_title">Низкий заряд батареи</string>
+    <string name="dialog_battery_low_message_pct">Уровень заряда батареи слишком низкий, вам нужно не менее <xliff:g id="percent_discharging">%1$d</xliff:g>%% батареи для продолжения работы, <xliff:g id="percent_charging">%2$d</xliff:g>%% при зарядке.</string>
+    <!-- Export update -->
+    <string name="dialog_export_title">Экспорт обновления во внутреннее хранилище</string>
+    <string name="notification_export_success">Обновление экспортируется во внутреннее хранилище</string>
+    <string name="notification_export_fail">Не удалось экспортировать обновление во внутреннее хранилище</string>
+    <string name="toast_already_exporting">Обновление уже экспортировано</string>
+    <!-- ETA -->
+    <plurals name="eta_seconds">
+        <item quantity="one">Осталась одна секунда</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> секунд осталась</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> секунд осталось</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> секунд осталось</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> минут осталось</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> минуты осталось</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> минут осталось</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> минут осталось</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">Остался один час</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> часа осталось</item>
+        <item quantity="many">1 hour left
+<xliff:g id="count">%d</xliff:g> часов осталось</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> часов осталось</item>
+    </plurals>
+    <!-- Mobile data warning -->
+    <string name="update_on_mobile_data_title">Внимание</string>
+    <string name="update_on_mobile_data_message">Вы собираетесь загрузить пакет обновлений, используя мобильные данные, что, вероятно, приведет к высокому расходу данных. Хотите ли вы продолжить?</string>
+    <string name="checkbox_mobile_data_warning">Больше не показывать</string>
+    <!-- Info section -->
+    <string name="maintainer_info_title">Сопровождающий</string>
+    <string name="maintainer_info_unknown">Неизвестно</string>
+    <string name="donate_info_title">Донат</string>
+    <string name="donate_info_summary">Поддержка разработки</string>
+    <string name="group_info_title">Telegram</string>
+    <string name="group_info_summary">Присоединяйтесь, чтобы получать новости и поддержку</string>
+    <string name="error_open_url">Не удалось открыть URL-адрес в браузере</string>
+    <!-- Local update -->
+    <string name="local_update_title">Local update</string>
+    <string name="local_update_summary">Apply update from local storage</string>
+    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
+    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
+    <string name="local_update_import_failure">Failed to import local update</string>
+    <string name="local_update_import_install">Install</string>
+    <string name="local_update_import_progress">Importing local update\u2026</string>
+</resources>
