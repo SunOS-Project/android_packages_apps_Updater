@@ -60,7 +60,7 @@
     <string name="resume_button">Возобновить</string>
     <string name="reboot">Перезагрузить</string>
     <string name="reboot_needed_dialog_title">Требуется перезагрузка</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted.\n\nIf you want to keep magisk installed, please click \'cancel\' and flash magisk to the new slot before reboot.\n\nDo you want to restart now?</string>
+    <string name="reboot_needed_dialog_summary">Для завершения установки обновления необходимо перезагрузить устройство.\n\nЕсли вы хотите сохранить установленный magisk, пожалуйста, нажмите \"отмена\" и установите magisk в новый слот перед перезагрузкой.\n\nВы хотите перезагрузиться сейчас?</string>
     <string name="details_button">Список изменений</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Применить обновление</string>
@@ -111,11 +111,11 @@
     <string name="group_info_summary">Присоединяйтесь, чтобы получать новости и поддержку</string>
     <string name="error_open_url">Не удалось открыть URL-адрес в браузере</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
-    <string name="local_update_import_install">Install</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_title">Локальное обновление</string>
+    <string name="local_update_summary">Применить обновление из локального хранилища</string>
+    <string name="local_update_import_success">Вы выбрали:\n%1$s\n\nВы хотите установить эту версию?</string>
+    <string name="local_update_import_disabled">Невозможно импортировать локальное обновление во время загрузки или установки обновлений</string>
+    <string name="local_update_import_failure">Не удалось импортировать локальное обновление</string>
+    <string name="local_update_import_install">Установить</string>
+    <string name="local_update_import_progress">Импорт локального обновления\u2026</string>
 </resources>

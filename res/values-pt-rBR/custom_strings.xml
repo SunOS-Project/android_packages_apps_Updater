@@ -60,7 +60,7 @@
     <string name="resume_button">Resumir</string>
     <string name="reboot">Reiniciar</string>
     <string name="reboot_needed_dialog_title">Reinicialização necessária</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted.\n\nIf you want to keep magisk installed, please click \'cancel\' and flash magisk to the new slot before reboot.\n\nDo you want to restart now?</string>
+    <string name="reboot_needed_dialog_summary">Para concluir a instalação da atualização, seu aparelho precisa ser reiniciado.\n\nSe você quiser manter o Magisk instalado, por favor clique em \"cancelar\" e instale o Magisk no novo slot antes de reiniciar.\n\nVocê gostaria de reiniciar agora?</string>
     <string name="details_button">Mudanças</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Aplicar atualização</string>
@@ -104,11 +104,11 @@
     <string name="group_info_summary">Entre para acompanhar as novidades &amp; suporte</string>
     <string name="error_open_url">Falha ao abrir URL no navegador</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
-    <string name="local_update_import_install">Install</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_title">Atualização local</string>
+    <string name="local_update_summary">Aplicar atualização do armazenamento interno</string>
+    <string name="local_update_import_success">Você escolheu:\n%1$s\n\nVocê gostaria de instalar?</string>
+    <string name="local_update_import_disabled">Não é possível importar uma atualização local enquanto estiver baixando ou aplicando outra atualização</string>
+    <string name="local_update_import_failure">Falha ao importar atualização local</string>
+    <string name="local_update_import_install">Instalar</string>
+    <string name="local_update_import_progress">Importando atualização local\u2026</string>
 </resources>
