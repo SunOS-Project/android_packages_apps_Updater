@@ -30,6 +30,6 @@ public final class Constants {
     static final String PROP_DEVICE = "ro.nameless.device";
     static final String PROP_BUILD_VERSION = "ro.nameless.version";
     static final String OTA_URL = "https://raw.githubusercontent.com/Nameless-AOSP/OTA/%s/%s/ota.json";
-    static final String CHANGELOG_URL = "https://github.com/Nameless-AOSP/OTA/blob/%s/%s/changelog_%s.txt";
+    static final String CHANGELOG_URL = "https://raw.githubusercontent.com/Nameless-AOSP/OTA/%s/%s/changelog_%s.txt";
     static final String EXPORT_PATH = "Nameless-Updates/";
 }
