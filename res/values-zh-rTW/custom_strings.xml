@@ -95,10 +95,10 @@
     <!-- Info section -->
     <string name="maintainer_info_title">維護者</string>
     <string name="maintainer_info_unknown">Unknown</string>
-    <string name="donate_info_title">Donate</string>
-    <string name="donate_info_summary">Support the development</string>
+    <string name="donate_info_title">捐獻</string>
+    <string name="donate_info_summary">請作者喝一杯咖啡</string>
     <string name="group_info_title">Telegram</string>
-    <string name="group_info_summary">Join to get news &amp; support</string>
+    <string name="group_info_summary">加入以獲得最新消息&amp; 支援</string>
     <string name="error_open_url">打開連結失敗</string>
     <!-- Local update -->
     <string name="local_update_title">本地更新</string>
@@ -108,4 +108,8 @@
     <string name="local_update_import_failure">導入本地更新失敗</string>
     <string name="local_update_import_install">安裝</string>
     <string name="local_update_import_progress">正在導入本地更新\u2026</string>
+    <!-- Changelog -->
+    <string name="fetch_changelog_failed">Failed to fetch changelog</string>
+    <string name="fetch_changelog_title">更新日誌</string>
+    <string name="fetch_changelog_progress">Fetching changelog\u2026</string>
 </resources>

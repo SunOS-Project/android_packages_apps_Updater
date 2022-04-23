@@ -108,4 +108,8 @@
     <string name="local_update_import_failure">ローカルアップデートのインポートに失敗しました</string>
     <string name="local_update_import_install">インストール</string>
     <string name="local_update_import_progress">ローカルアップデートをインポート中\u2026</string>
+    <!-- Changelog -->
+    <string name="fetch_changelog_failed">更新履歴の取得に失敗しました</string>
+    <string name="fetch_changelog_title">更新履歴</string>
+    <string name="fetch_changelog_progress">更新履歴を取得中\u2026</string>
 </resources>

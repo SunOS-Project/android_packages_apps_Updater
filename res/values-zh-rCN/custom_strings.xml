@@ -98,7 +98,7 @@
     <string name="donate_info_title">打赏</string>
     <string name="donate_info_summary">请作者喝一杯冰可乐</string>
     <string name="group_info_title">电报</string>
-    <string name="group_info_summary">加入以获得最新消息和支持</string>
+    <string name="group_info_summary">加入以获得最新消息和支持 （English only）</string>
     <string name="error_open_url">打开链接失败</string>
     <!-- Local update -->
     <string name="local_update_title">本地更新</string>
@@ -108,4 +108,8 @@
     <string name="local_update_import_failure">导入本地更新失败</string>
     <string name="local_update_import_install">安装</string>
     <string name="local_update_import_progress">正在导入本地更新\u2026</string>
+    <!-- Changelog -->
+    <string name="fetch_changelog_failed">拉取更新日志失败</string>
+    <string name="fetch_changelog_title">更新日志</string>
+    <string name="fetch_changelog_progress">正在拉取更新日志\u2026</string>
 </resources>

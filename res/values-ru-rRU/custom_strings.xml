@@ -47,7 +47,7 @@
     <string name="list_verifying_update">Проверка обновления</string>
     <string name="list_no_updates">Новые обновления не найдены.</string>
     <string name="blocked_update_dialog_title">Обновление заблокировано</string>
-    <string name="blocked_update_dialog_summary">Это обновление требует ручной процедуры чистой установки (очистка/форматирование раздела данных перед установкой обновления). Пожалуйста, загрузите обновление с нашего сайта, перезагрузитесь в режим восстановления и следуйте инструкциям.</string>
+    <string name="blocked_update_dialog_summary">Это обновление требует ручной процедуры чистой установки (очистка/форматирование раздела Data перед установкой обновления). Пожалуйста, загрузите обновление с нашего сайта, перезагрузитесь в рекавери и следуйте инструкциям.</string>
     <!-- Actions -->
     <string name="action_download">Загрузить</string>
     <string name="action_pause">Пауза</string>
@@ -60,14 +60,14 @@
     <string name="resume_button">Возобновить</string>
     <string name="reboot">Перезагрузить</string>
     <string name="reboot_needed_dialog_title">Требуется перезагрузка</string>
-    <string name="reboot_needed_dialog_summary">Для завершения установки обновления необходимо перезагрузить устройство.\n\nЕсли вы хотите сохранить установленный magisk, пожалуйста, нажмите \"отмена\" и установите magisk в новый слот перед перезагрузкой.\n\nВы хотите перезагрузиться сейчас?</string>
+    <string name="reboot_needed_dialog_summary">Для завершения установки обновления необходимо перезагрузить устройство.\n\nЕсли вы хотите сохранить установленный Magisk, пожалуйста, нажмите \"отмена\" и установите Magisk в новый слот перед перезагрузкой.\n\nВы хотите перезагрузиться сейчас?</string>
     <string name="details_button">Список изменений</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Применить обновление</string>
-    <string name="apply_update_dialog_message">Сейчас вы обновитесь до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЕсли вы нажмете <xliff:g id="ok">%2$s</xliff:g>, устройство перезагрузится в режиме восстановления для установки обновления.\n\nПримечание: Эта функция требует совместимого Recovery, иначе обновления придется устанавливать вручную.</string>
-    <string name="apply_update_dialog_message_ab">Вы собираетесь обновить систему до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЕсли вы нажмете <xliff:g id="ok">%2$s</xliff:g>, устройство начнет установку в фоновом режиме.\n\nПосле завершения вам будет предложено перезагрузиться.</string>
+    <string name="apply_update_dialog_message">Сейчас вы обновитесь до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЕсли вы нажмете <xliff:g id="ok">%2$s</xliff:g>, устройство перезагрузится в рекавери для установки обновления.\n\nПримечание: Эта функция требует совместимого рекавери, иначе обновления придётся устанавливать вручную.</string>
+    <string name="apply_update_dialog_message_ab">Вы собираетесь обновить систему до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЕсли вы нажмёте <xliff:g id="ok">%2$s</xliff:g>, устройство начнёт установку в фоновом режиме.\n\nПосле завершения вам будет предложено перезагрузиться.</string>
     <string name="installing_update">Установка пакета обновления</string>
-    <string name="installing_update_error">Установка не удалась</string>
+    <string name="installing_update_error">Ошибка установки</string>
     <string name="installing_update_finished">Обновление установлено</string>
     <string name="finalizing_package">Завершение установки обновления</string>
     <string name="dialog_prepare_zip_message">Предварительная подготовка обновления</string>
@@ -80,35 +80,34 @@
     <string name="toast_already_exporting">Обновление уже экспортировано</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
-        <item quantity="one">Осталась одна секунда</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> секунд осталась</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> секунд осталось</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> секунд осталось</item>
+        <item quantity="one">Осталась <xliff:g id="count">%d</xliff:g> секунда</item>
+        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> секунды</item>
+        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> секунд</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> секунд</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> минут осталось</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> минуты осталось</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> минут осталось</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> минут осталось</item>
+        <item quantity="one">Осталась <xliff:g id="count">%d</xliff:g> минута</item>
+        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> минуты</item>
+        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> минут</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> минут</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">Остался один час</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> часа осталось</item>
-        <item quantity="many">1 hour left
-<xliff:g id="count">%d</xliff:g> часов осталось</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> часов осталось</item>
+        <item quantity="one">Остался <xliff:g id="count">%d</xliff:g> час</item>
+        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> часа</item>
+        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> часов</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> часов</item>
     </plurals>
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">Внимание</string>
-    <string name="update_on_mobile_data_message">Вы собираетесь загрузить пакет обновлений, используя мобильные данные, что, вероятно, приведет к высокому расходу данных. Хотите ли вы продолжить?</string>
+    <string name="update_on_mobile_data_message">Вы собираетесь загрузить обновление, используя мобильный Интернет, что может привести к высокому расходу данных. Вы хотите продолжить?</string>
     <string name="checkbox_mobile_data_warning">Больше не показывать</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Сопровождающий</string>
     <string name="maintainer_info_unknown">Неизвестно</string>
     <string name="donate_info_title">Донат</string>
-    <string name="donate_info_summary">Поддержка разработки</string>
+    <string name="donate_info_summary">Поддержать разработку</string>
     <string name="group_info_title">Telegram</string>
-    <string name="group_info_summary">Присоединяйтесь, чтобы получать новости и поддержку</string>
+    <string name="group_info_summary">Присоединиться, чтобы следить за новостями и получать поддержку</string>
     <string name="error_open_url">Не удалось открыть URL-адрес в браузере</string>
     <!-- Local update -->
     <string name="local_update_title">Локальное обновление</string>
@@ -118,4 +117,8 @@
     <string name="local_update_import_failure">Не удалось импортировать локальное обновление</string>
     <string name="local_update_import_install">Установить</string>
     <string name="local_update_import_progress">Импорт локального обновления\u2026</string>
+    <!-- Changelog -->
+    <string name="fetch_changelog_failed">Не удалось получить список изменений</string>
+    <string name="fetch_changelog_title">Список изменений</string>
+    <string name="fetch_changelog_progress">Получение списка изменений\u2026</string>
 </resources>
