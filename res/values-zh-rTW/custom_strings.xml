@@ -18,9 +18,9 @@
     <!-- App name -->
     <string name="app_name">系統更新</string>
     <!-- Notifications -->
-    <string name="export_channel_title">Export completion</string>
+    <string name="export_channel_title">導出已完成</string>
     <string name="new_updates_channel_title">新的更新</string>
-    <string name="ongoing_channel_title">Ongoing downloads</string>
+    <string name="ongoing_channel_title">當前下載</string>
     <string name="update_failed_channel_title">更新失敗</string>
     <string name="verification_failed_notification">驗證失敗</string>
     <string name="verifying_download_notification">正在驗證更新</string>
@@ -33,7 +33,7 @@
     <string name="check_for_update">檢查更新</string>
     <!-- Menu -->
     <string name="menu_delete_update">刪除</string>
-    <string name="menu_export_update">Export update</string>
+    <string name="menu_export_update">導出更新</string>
     <!-- General -->
     <string name="update_found_notification">有可用的系統更新</string>
     <string name="snack_no_updates_found">未發現新的更新</string>
@@ -47,54 +47,54 @@
     <string name="list_verifying_update">正在驗證更新</string>
     <string name="list_no_updates">未發現新的更新.</string>
     <string name="blocked_update_dialog_title">更新已被阻止</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">此更新需要手動全新安裝過程(在安裝更新之前擦除/格式化數據分區)。 請從我們的網站下載更新，重新啟動到Recovery模式並按照程序執行此操作。</string>
     <!-- Actions -->
     <string name="action_download">下載</string>
     <string name="action_pause">暫停</string>
     <string name="action_resume">繼續</string>
     <string name="action_install">安裝</string>
     <string name="action_delete">刪除</string>
-    <string name="confirm_delete_dialog_title">Delete file</string>
-    <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
+    <string name="confirm_delete_dialog_title">刪除文件</string>
+    <string name="confirm_delete_dialog_message">您確定要刪除此更新檔案？</string>
     <string name="pause_button">暫停</string>
     <string name="resume_button">繼續</string>
     <string name="reboot">重新啟動</string>
     <string name="reboot_needed_dialog_title">需要重新啟動</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted.\n\nIf you want to keep magisk installed, please click \'cancel\' and flash magisk to the new slot before reboot.\n\nDo you want to restart now?</string>
+    <string name="reboot_needed_dialog_summary">您的設備需要重新啟動才能完成安裝更新。 \n\n如果您想要保留 Magisk 更新，請點擊\"取消\"並在重啟前將 Magisk 安裝到另一個分區。 \n\n您想現在就重啟嗎？</string>
     <string name="details_button">更新日誌</string>
     <!-- Installation -->
-    <string name="apply_update_dialog_title">Apply update</string>
-    <string name="apply_update_dialog_message">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
-    <string name="apply_update_dialog_message_ab">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
+    <string name="apply_update_dialog_title">應用更新</string>
+    <string name="apply_update_dialog_message">您將要更新到 <xliff:g id="update_name">%1$s</xliff:g>。\n\n如果按下<xliff:g id="ok">%2$s</xliff:g>，您的設備將會重啟到恢復模式並安裝更新。\n\n注意：此功能需要一個兼容的Recovery，否則您將需要手動安裝更新。</string>
+    <string name="apply_update_dialog_message_ab">您將要升級到 <xliff:g id="update_name">%1$s</xliff:g>。 \n\n如果您按下<xliff:g id="ok">%2$s</xliff:g>，設備將會在後台進行安裝。 \n\n當安裝完畢後，將會提示您重新啟動。</string>
     <string name="installing_update">正在安裝更新包</string>
     <string name="installing_update_error">安裝錯誤</string>
     <string name="installing_update_finished">更新已安裝</string>
     <string name="finalizing_package">正在完成更新包安裝</string>
     <string name="dialog_prepare_zip_message">正在準備更新</string>
     <string name="dialog_battery_low_title">低電量</string>
-    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
+    <string name="dialog_battery_low_message_pct">電池電量過低，您需要至少 <xliff:g id="percent_discharging">%1$d</xliff:g>%% 的電量才能繼續；如果正在充電，則需要 <xliff:g id="percent_charging">%2$d</xliff:g>%% 的電量才能繼續。</string>
     <!-- Export update -->
-    <string name="dialog_export_title">Exporting update to internal storage</string>
-    <string name="notification_export_success">Update exported to internal storage</string>
-    <string name="notification_export_fail">Failed to export update to internal storage</string>
-    <string name="toast_already_exporting">Already exporting an update</string>
+    <string name="dialog_export_title">導出更新至內部存儲空間</string>
+    <string name="notification_export_success">已導出更新至內部存儲空間</string>
+    <string name="notification_export_fail">導出更新至內部存儲空間失敗</string>
+    <string name="toast_already_exporting">以導出更新</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="other">剩餘<xliff:g id="count">%d</xliff:g> 秒</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="other">剩餘<xliff:g id="count">%d</xliff:g> 分</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="other">剩餘<xliff:g id="count">%d</xliff:g> 小時</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Warning</string>
-    <string name="update_on_mobile_data_message">You\'re about to download an update package using mobile data which is likely going to cause high data usage. Would you like to proceed?</string>
+    <string name="update_on_mobile_data_title">行動數據使用警告</string>
+    <string name="update_on_mobile_data_message">您將通過行動數據下載更新包，這可能會導致較大的數據用量，是否繼續？</string>
     <string name="checkbox_mobile_data_warning">不再顯示</string>
     <!-- Info section -->
     <string name="maintainer_info_title">維護者</string>
-    <string name="maintainer_info_unknown">Unknown</string>
+    <string name="maintainer_info_unknown">不明</string>
     <string name="donate_info_title">捐獻</string>
     <string name="donate_info_summary">請作者喝一杯咖啡</string>
     <string name="group_info_title">Telegram</string>
@@ -103,13 +103,13 @@
     <!-- Local update -->
     <string name="local_update_title">本地更新</string>
     <string name="local_update_summary">從儲存空間安裝更新</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
+    <string name="local_update_import_success">您已選擇：\n%1$s\n\n你想要現在安裝嗎?</string>
+    <string name="local_update_import_disabled">下載或安裝更新時無法導入本地更新</string>
     <string name="local_update_import_failure">導入本地更新失敗</string>
     <string name="local_update_import_install">安裝</string>
     <string name="local_update_import_progress">正在導入本地更新\u2026</string>
     <!-- Changelog -->
-    <string name="fetch_changelog_failed">Failed to fetch changelog</string>
+    <string name="fetch_changelog_failed">抓取更新日誌失敗</string>
     <string name="fetch_changelog_title">更新日誌</string>
-    <string name="fetch_changelog_progress">Fetching changelog\u2026</string>
+    <string name="fetch_changelog_progress">正在抓取更新日誌\u2026</string>
 </resources>
