@@ -16,103 +16,103 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App name -->
-    <string name="app_name">System update</string>
+    <string name="app_name">Sistem güncellemesi</string>
     <!-- Notifications -->
-    <string name="export_channel_title">Export completion</string>
-    <string name="new_updates_channel_title">New updates</string>
-    <string name="ongoing_channel_title">Ongoing downloads</string>
-    <string name="update_failed_channel_title">Update failed</string>
-    <string name="verification_failed_notification">Verification failed</string>
-    <string name="verifying_download_notification">Verifying update</string>
-    <string name="downloading_notification">Downloading</string>
-    <string name="download_paused_notification">Download paused</string>
-    <string name="download_paused_error_notification">Download error</string>
-    <string name="download_completed_notification">Download completed</string>
-    <string name="download_starting_notification">Starting download</string>
-    <string name="update_failed_notification">Update failed</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="export_channel_title">Dışarıdan aktarılan</string>
+    <string name="new_updates_channel_title">Yeni güncellemeler</string>
+    <string name="ongoing_channel_title">Devam eden indirmeler</string>
+    <string name="update_failed_channel_title">Güncelleştirme başarısız</string>
+    <string name="verification_failed_notification">Doğrulama başarısız oldu</string>
+    <string name="verifying_download_notification">Güncelleme doğrulanıyor</string>
+    <string name="downloading_notification">İndiriliyor</string>
+    <string name="download_paused_notification">İndirme duraklatıldı</string>
+    <string name="download_paused_error_notification">İndirme hatası</string>
+    <string name="download_completed_notification">İndirme tamamlandı</string>
+    <string name="download_starting_notification">İndirme başladı</string>
+    <string name="update_failed_notification">Güncelleştirme başarısız</string>
+    <string name="check_for_update">Güncellemeleri kontrol ediniz</string>
     <!-- Menu -->
-    <string name="menu_delete_update">Delete</string>
-    <string name="menu_export_update">Export update</string>
+    <string name="menu_delete_update">Sil</string>
+    <string name="menu_export_update">Güncellemeyi dışa aktar</string>
     <!-- General -->
-    <string name="update_found_notification">System update available</string>
-    <string name="snack_no_updates_found">No new updates found</string>
-    <string name="snack_updates_check_failed">The update check failed. Please check your internet connection and try again later.</string>
-    <string name="snack_download_failed">The download failed. Please check your internet connection and try again later.</string>
-    <string name="snack_download_verification_failed">The update verification failed.</string>
-    <string name="snack_download_verified">Download completed.</string>
-    <string name="snack_update_not_installable">This update can\'t be installed on top of the current build.</string>
+    <string name="update_found_notification">Sistem güncellemesi mevcut</string>
+    <string name="snack_no_updates_found">Yeni güncelleme bulunamadı</string>
+    <string name="snack_updates_check_failed">Güncelleme kontrolü başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
+    <string name="snack_download_failed">İndirme başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
+    <string name="snack_download_verification_failed">Güncelleme doğrulaması başarısız oldu.</string>
+    <string name="snack_download_verified">İndirme tamamlandı.</string>
+    <string name="snack_update_not_installable">Bu güncelleme, mevcut derlemenin üzerine yüklenemez.</string>
     <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
-    <string name="list_verifying_update">Verifying update</string>
-    <string name="list_no_updates">No new update found.</string>
-    <string name="blocked_update_dialog_title">Update blocked</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="list_verifying_update">Güncelleme doğrulanıyor</string>
+    <string name="list_no_updates">Yeni güncelleme bulunamadı.</string>
+    <string name="blocked_update_dialog_title">Güncelleme engellendi</string>
+    <string name="blocked_update_dialog_summary">Bu güncelleme, manuel bir temiz kurulum prosedürü gerektirir (Güncellemeyi yüklemeden önce Veri bölümünü Silme/Biçimlendirme). Lütfen güncellemeyi web sitemizden indirin, kurtarma moduna yeniden başlatın ve bunu yapmak için prosedürleri izleyin.</string>
     <!-- Actions -->
-    <string name="action_download">Download</string>
-    <string name="action_pause">Pause</string>
-    <string name="action_resume">Resume</string>
-    <string name="action_install">Install</string>
-    <string name="action_delete">Delete</string>
-    <string name="confirm_delete_dialog_title">Delete file</string>
-    <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
-    <string name="pause_button">Pause</string>
-    <string name="resume_button">Resume</string>
-    <string name="reboot">Reboot</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted.\n\nIf you want to keep magisk installed, please click \'cancel\' and flash magisk to the new slot before reboot.\n\nDo you want to restart now?</string>
-    <string name="details_button">Changelog</string>
+    <string name="action_download">İndir</string>
+    <string name="action_pause">Duraklat</string>
+    <string name="action_resume">Devam et</string>
+    <string name="action_install">Yükle</string>
+    <string name="action_delete">Sil</string>
+    <string name="confirm_delete_dialog_title">Dosyayı sil</string>
+    <string name="confirm_delete_dialog_message">Seçilen güncelleme dosyası silinsin mi?</string>
+    <string name="pause_button">Duraklat</string>
+    <string name="resume_button">Devam et</string>
+    <string name="reboot">Yeniden başlat</string>
+    <string name="reboot_needed_dialog_title">Yeniden başlatma gerekli</string>
+    <string name="reboot_needed_dialog_summary">Güncellemenin kurulumunu tamamlamak için cihazınızın yeniden başlatılması gerekiyor.\n\nMagisk\'in kurulu kalmasını istiyorsanız, lütfen \'iptal\'i tıklayın ve yeniden başlatmadan önce magisk\'i yeni yuvaya flashlayın.\n\nŞimdi yeniden başlatmak istiyor musunuz?</string>
+    <string name="details_button">Değişiklik günlüğü</string>
     <!-- Installation -->
-    <string name="apply_update_dialog_title">Apply update</string>
-    <string name="apply_update_dialog_message">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
-    <string name="apply_update_dialog_message_ab">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
-    <string name="installing_update">Installing update package</string>
-    <string name="installing_update_error">Install error</string>
-    <string name="installing_update_finished">Update installed</string>
-    <string name="finalizing_package">Finalizing package installation</string>
-    <string name="dialog_prepare_zip_message">Preliminary update preparation</string>
-    <string name="dialog_battery_low_title">Low battery</string>
-    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
+    <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
+    <string name="apply_update_dialog_message">&lt;xliff:g id="update_name"&gt;%1$s&lt;/xliff:g&gt; sürümüne geçmek üzeresiniz.\n\n&lt;xliff:g id="ok"&gt;%2$s&lt;/xliff\'e basarsanız:g&gt;, güncellemeyi yüklemek için cihaz kendini kurtarma modunda yeniden başlatır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
+    <string name="apply_update_dialog_message_ab">&lt;xliff:g id="update_name"&gt;%1$s&lt;/xliff:g&gt; sürümüne geçmek üzeresiniz.\n\n&lt;xliff:g id="ok"&gt;%2$s&lt;/xliff\'e basarsanız :g&gt;, güncellemeyi yüklemek için cihaz kendini kurtarma modunda yeniden başlatır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
+    <string name="installing_update">Güncelleme paketini yükleme</string>
+    <string name="installing_update_error">Yükleme hatası</string>
+    <string name="installing_update_finished">Güncelleme yüklendi</string>
+    <string name="finalizing_package">Paket kurulumunu tamamlama</string>
+    <string name="dialog_prepare_zip_message">Ön güncelleme hazırlığı</string>
+    <string name="dialog_battery_low_title">Düşük pil</string>
+    <string name="dialog_battery_low_message_pct">Pil seviyesi çok düşük, devam etmek için pilin en az <xliff:g id="percent_discharging">%1$d</xliff:g>%%\'sine ihtiyacınız var, <xliff:g id="percent_charging">%2$d</xliff:g>%% şarj oluyorsa.</string>
     <!-- Export update -->
-    <string name="dialog_export_title">Exporting update to internal storage</string>
-    <string name="notification_export_success">Update exported to internal storage</string>
-    <string name="notification_export_fail">Failed to export update to internal storage</string>
-    <string name="toast_already_exporting">Already exporting an update</string>
+    <string name="dialog_export_title">Güncellemeyi dahili depolamaya aktarma</string>
+    <string name="notification_export_success">Güncelleme dahili depolamaya aktarıldı</string>
+    <string name="notification_export_fail">Güncelleme dahili depolamaya aktarılamadı</string>
+    <string name="toast_already_exporting">Zaten bir güncelleme dışa aktarılıyor</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
-        <item quantity="one">1 second left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="one">1 saniye kaldı</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> saniye kaldı</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one">1 minute left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="one">1 dakika kaldı</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> dakika kaldı</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">1 hour left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="one">1 saat kaldı</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> saat kaldı</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Warning</string>
-    <string name="update_on_mobile_data_message">You\'re about to download an update package using mobile data which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_mobile_data_warning">Do not show again</string>
+    <string name="update_on_mobile_data_title">Uyarı</string>
+    <string name="update_on_mobile_data_message">Mobil veri kullanan ve yüksek veri kullanımına neden olabilecek bir güncelleme paketi indirmek üzeresiniz. Devam etmek ister misiniz?</string>
+    <string name="checkbox_mobile_data_warning">Tekrar gösterme</string>
     <!-- Info section -->
-    <string name="maintainer_info_title">Maintainer</string>
-    <string name="maintainer_info_unknown">Unknown</string>
-    <string name="donate_info_title">Donate</string>
-    <string name="donate_info_summary">Support the development</string>
+    <string name="maintainer_info_title">Sorumlu</string>
+    <string name="maintainer_info_unknown">Bilinmeyen</string>
+    <string name="donate_info_title">Bağış yapmak</string>
+    <string name="donate_info_summary">Geliştiriciyi destekleyin</string>
     <string name="group_info_title">Telegram</string>
-    <string name="group_info_summary">Join to get news &amp; support</string>
-    <string name="error_open_url">Failed to open URL in browser</string>
+    <string name="group_info_summary">Haber almak için katılın &amp; destek</string>
+    <string name="error_open_url">URL tarayıcıda açılamadı</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
-    <string name="local_update_import_install">Install</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_title">Yerel güncelleme</string>
+    <string name="local_update_summary">Yerel depolamadan güncelleme uygula</string>
+    <string name="local_update_import_success">Şunu seçtiniz:\n%1$s\n\nYüklemek istiyor musunuz?</string>
+    <string name="local_update_import_disabled">Güncelleme indirilirken veya kurulurken yerel güncelleme içe aktarılamıyor</string>
+    <string name="local_update_import_failure">Yerel güncelleme içe aktarılamadı</string>
+    <string name="local_update_import_install">Yükle</string>
+    <string name="local_update_import_progress">Yerel güncelleme içe aktarılıyor\u2026</string>
     <!-- Changelog -->
-    <string name="fetch_changelog_failed">Failed to fetch changelog</string>
-    <string name="fetch_changelog_title">Changelog</string>
-    <string name="fetch_changelog_progress">Fetching changelog\u2026</string>
+    <string name="fetch_changelog_failed">Değişiklik günlüğü getirilemedi</string>
+    <string name="fetch_changelog_title">Değişiklik günlüğü</string>
+    <string name="fetch_changelog_progress">Değişiklik günlüğü getiriliyor\u2026</string>
 </resources>

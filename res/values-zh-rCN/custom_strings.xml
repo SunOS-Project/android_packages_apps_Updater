@@ -98,7 +98,7 @@
     <string name="donate_info_title">打赏</string>
     <string name="donate_info_summary">请作者喝一杯冰可乐</string>
     <string name="group_info_title">电报</string>
-    <string name="group_info_summary">加入以获得最新消息和支持 （English only）</string>
+    <string name="group_info_summary">加入以获得最新消息和支持（English only）</string>
     <string name="error_open_url">打开链接失败</string>
     <!-- Local update -->
     <string name="local_update_title">本地更新</string>
