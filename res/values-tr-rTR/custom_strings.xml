@@ -115,4 +115,6 @@
     <string name="fetch_changelog_failed">Değişiklik günlüğü getirilemedi</string>
     <string name="fetch_changelog_title">Değişiklik günlüğü</string>
     <string name="fetch_changelog_progress">Değişiklik günlüğü getiriliyor\u2026</string>
+    <string name="copy_changelog">Kopyala</string>
+    <string name="copy_changelog_success">Değişiklik günlüğü panoya başarıyla kopyalandı</string>
 </resources>

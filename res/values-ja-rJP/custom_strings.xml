@@ -112,4 +112,6 @@
     <string name="fetch_changelog_failed">更新履歴の取得に失敗しました</string>
     <string name="fetch_changelog_title">更新履歴</string>
     <string name="fetch_changelog_progress">更新履歴を取得中\u2026</string>
+    <string name="copy_changelog">コピー</string>
+    <string name="copy_changelog_success">更新履歴を正常にクリップボードにコピーしました</string>
 </resources>

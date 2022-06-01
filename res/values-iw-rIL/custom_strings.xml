@@ -16,109 +16,111 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App name -->
-    <string name="app_name">System update</string>
+    <string name="app_name">עדכון מערכת</string>
     <!-- Notifications -->
-    <string name="export_channel_title">Export completion</string>
-    <string name="new_updates_channel_title">New updates</string>
-    <string name="ongoing_channel_title">Ongoing downloads</string>
-    <string name="update_failed_channel_title">Update failed</string>
-    <string name="verification_failed_notification">Verification failed</string>
-    <string name="verifying_download_notification">Verifying update</string>
-    <string name="downloading_notification">Downloading</string>
-    <string name="download_paused_notification">Download paused</string>
-    <string name="download_paused_error_notification">Download error</string>
-    <string name="download_completed_notification">Download completed</string>
-    <string name="download_starting_notification">Starting download</string>
-    <string name="update_failed_notification">Update failed</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="export_channel_title">הייצוא הושלם</string>
+    <string name="new_updates_channel_title">עדכונים חדשים</string>
+    <string name="ongoing_channel_title">הורדות בתהליך</string>
+    <string name="update_failed_channel_title">עדכון נכשל</string>
+    <string name="verification_failed_notification">האימות נכשל</string>
+    <string name="verifying_download_notification">מאמת עדכון</string>
+    <string name="downloading_notification">מוריד</string>
+    <string name="download_paused_notification">ההורדה מושהית</string>
+    <string name="download_paused_error_notification">שגיאה בהורדה</string>
+    <string name="download_completed_notification">ההורדה הושלמה</string>
+    <string name="download_starting_notification">מתחיל הורדה</string>
+    <string name="update_failed_notification">עדכון נכשל</string>
+    <string name="check_for_update">בדוק עדכונים</string>
     <!-- Menu -->
-    <string name="menu_delete_update">Delete</string>
-    <string name="menu_export_update">Export update</string>
+    <string name="menu_delete_update">מחק</string>
+    <string name="menu_export_update">ייצוא עדכון</string>
     <!-- General -->
-    <string name="update_found_notification">System update available</string>
-    <string name="snack_no_updates_found">No new updates found</string>
-    <string name="snack_updates_check_failed">The update check failed. Please check your internet connection and try again later.</string>
-    <string name="snack_download_failed">The download failed. Please check your internet connection and try again later.</string>
-    <string name="snack_download_verification_failed">The update verification failed.</string>
-    <string name="snack_download_verified">Download completed.</string>
-    <string name="snack_update_not_installable">This update can\'t be installed on top of the current build.</string>
-    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
-    <string name="list_verifying_update">Verifying update</string>
-    <string name="list_no_updates">No new update found.</string>
-    <string name="blocked_update_dialog_title">Update blocked</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="update_found_notification">עדכון מערכת זמין</string>
+    <string name="snack_no_updates_found">לא נמצאו עדכונים חדשים</string>
+    <string name="snack_updates_check_failed">בדיקת העדכון נכשלה. אנא בדוק את חיבור האינטרנט שלך ונסה שוב מאוחר יותר.</string>
+    <string name="snack_download_failed">ההורדה נכשלה. אנא בדוק את חיבור האינטרנט שלך ונסה שוב מאוחר יותר.</string>
+    <string name="snack_download_verification_failed">אימות העדכון נכשל.</string>
+    <string name="snack_download_verified">ההורדה הושלמה.</string>
+    <string name="snack_update_not_installable">לא ניתן להתקין עדכון זה על גבי גרסת הבנייה הנוכחית.</string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> מתוך <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> מתוך <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="list_verifying_update">מאמת עדכון</string>
+    <string name="list_no_updates">לא נמצאו עדכונים חדשים.</string>
+    <string name="blocked_update_dialog_title">העדכון נחסם</string>
+    <string name="blocked_update_dialog_summary">עדכון זה דורש הליך התקנה נקי ידני (מחיקה/פירמוט מחיצת הנתונים לפני התקנת העדכון). אנא הורד את העדכון מהאתר שלנו, הפעל מחדש למצב שחזור ופעל לפי הנהלים כדי לעשות זאת.</string>
     <!-- Actions -->
-    <string name="action_download">Download</string>
-    <string name="action_pause">Pause</string>
-    <string name="action_resume">Resume</string>
-    <string name="action_install">Install</string>
-    <string name="action_delete">Delete</string>
-    <string name="confirm_delete_dialog_title">Delete file</string>
-    <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
-    <string name="pause_button">Pause</string>
-    <string name="resume_button">Resume</string>
-    <string name="reboot">Reboot</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted.\n\nIf you want to keep magisk installed, please click \'cancel\' and flash magisk to the new slot before reboot.\n\nDo you want to restart now?</string>
-    <string name="details_button">Changelog</string>
+    <string name="action_download">הורדה</string>
+    <string name="action_pause">השהה</string>
+    <string name="action_resume">המשך</string>
+    <string name="action_install">התקן</string>
+    <string name="action_delete">מחק</string>
+    <string name="confirm_delete_dialog_title">מחק קובץ</string>
+    <string name="confirm_delete_dialog_message">למחוק את קובץ העדכון שנבחר?</string>
+    <string name="pause_button">השהה</string>
+    <string name="resume_button">המשך</string>
+    <string name="reboot">הפעל מחדש</string>
+    <string name="reboot_needed_dialog_title">יש צורך בהפעלה מחדש</string>
+    <string name="reboot_needed_dialog_summary">כדי להשלים את התקנת העדכון, יש להפעיל מחדש את המכשיר שלך.\n\nאם ברצונך להשאיר את Magisk מותקן, אנא לחץ על \'ביטול\' והתקן (flash) את Magisk לסלוט החדש לפני אתחול.\n\nהאם ברצונך להפעיל מחדש עכשיו?</string>
+    <string name="details_button">יומן שינויים</string>
     <!-- Installation -->
-    <string name="apply_update_dialog_title">Apply update</string>
-    <string name="apply_update_dialog_message">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
-    <string name="apply_update_dialog_message_ab">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
-    <string name="installing_update">Installing update package</string>
-    <string name="installing_update_error">Install error</string>
-    <string name="installing_update_finished">Update installed</string>
-    <string name="finalizing_package">Finalizing package installation</string>
-    <string name="dialog_prepare_zip_message">Preliminary update preparation</string>
-    <string name="dialog_battery_low_title">Low battery</string>
-    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
+    <string name="apply_update_dialog_title">החל עדכון</string>
+    <string name="apply_update_dialog_message">אתה עומד לשדרג ל <xliff:g id="update_name">%1$s</xliff:g>.\n\nאם תלחץ <xliff:g id="ok">%2$s</xliff:g>, המכשיר יאתחל את עצמו במצב שחזור כדי להתקין את העדכון.\n\nהערה: תכונה זו דורשת שחזור תואם או שיהיה צורך להתקין את העדכונים באופן ידני.</string>
+    <string name="apply_update_dialog_message_ab">אתה עומד לשדרג ל <xliff:g id="update_name">%1$s</xliff:g>.\n\nאם תלחץ <xliff:g id="ok">%2$s</xliff:g>, המכשיר יתחיל להתקין ברקע.\n\nלאחר השלמתו, תתבקש לאתחל.</string>
+    <string name="installing_update">מתקין חבילת עדכון</string>
+    <string name="installing_update_error">שגיאת התקנה</string>
+    <string name="installing_update_finished">העדכון הותקן</string>
+    <string name="finalizing_package">סיום התקנת החבילה</string>
+    <string name="dialog_prepare_zip_message">הכנה לעדכון ראשוני</string>
+    <string name="dialog_battery_low_title">סוללה חלשה</string>
+    <string name="dialog_battery_low_message_pct">רמת הסוללה נמוכה מדי, אתה צריך לפחות <xliff:g id="percent_discharging">%1$d</xliff:g>%% של הסוללה כדי להמשיך, <xliff:g id="percent_charging">%2$d</xliff:g>%% אם בטעינה.</string>
     <!-- Export update -->
-    <string name="dialog_export_title">Exporting update to internal storage</string>
-    <string name="notification_export_success">Update exported to internal storage</string>
-    <string name="notification_export_fail">Failed to export update to internal storage</string>
-    <string name="toast_already_exporting">Already exporting an update</string>
+    <string name="dialog_export_title">מייצא עדכון לאחסון פנימי</string>
+    <string name="notification_export_success">העדכון יוצא לאחסון פנימי</string>
+    <string name="notification_export_fail">ייצוא העדכון לאחסון פנימי נכשל</string>
+    <string name="toast_already_exporting">כבר מייצא עדכון</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
-        <item quantity="one">1 second left</item>
-        <item quantity="two"><xliff:g id="count">%d</xliff:g> seconds left</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="one">שניה אחת נותרה</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> שניות נותרו</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> שניות נותרו</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one">1 minute left</item>
+        <item quantity="one">דקה אחת נותרה</item>
         <item quantity="two"><xliff:g id="count">%d</xliff:g> minutes left</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> דקות נותרו</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">1 hour left</item>
+        <item quantity="one">שעה אחת נותרה</item>
         <item quantity="two"><xliff:g id="count">%d</xliff:g> hours left</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> שעות נותרו</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Warning</string>
-    <string name="update_on_mobile_data_message">You\'re about to download an update package using mobile data which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_mobile_data_warning">Do not show again</string>
+    <string name="update_on_mobile_data_title">אזהרה</string>
+    <string name="update_on_mobile_data_message">אתה עומד להוריד חבילת עדכון באמצעות נתונים סלולריים שסביר להניח שיגרום לשימוש רב בנתונים. האם תרצה להמשיך?</string>
+    <string name="checkbox_mobile_data_warning">אל תציג שוב</string>
     <!-- Info section -->
-    <string name="maintainer_info_title">Maintainer</string>
-    <string name="maintainer_info_unknown">Unknown</string>
-    <string name="donate_info_title">Donate</string>
-    <string name="donate_info_summary">Support the development</string>
-    <string name="group_info_title">Telegram</string>
-    <string name="group_info_summary">Join to get news &amp; support</string>
-    <string name="error_open_url">Failed to open URL in browser</string>
+    <string name="maintainer_info_title">מתחזק</string>
+    <string name="maintainer_info_unknown">לא ידוע</string>
+    <string name="donate_info_title">תרום</string>
+    <string name="donate_info_summary">תמכו בפיתוח</string>
+    <string name="group_info_title">טלגרם</string>
+    <string name="group_info_summary">הצטרף כדי לקבל חדשות &amp; תמיכה</string>
+    <string name="error_open_url">פתיחת כתובת האתר בדפדפן נכשלה</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
-    <string name="local_update_import_install">Install</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_title">עדכון מקומי</string>
+    <string name="local_update_summary">החל עדכון מאחסון מקומי</string>
+    <string name="local_update_import_success">בחרת:\n%1$s\n\nהאם ברצונך להתקין אותו?</string>
+    <string name="local_update_import_disabled">לא ניתן לייבא עדכון מקומי בעת הורדה או התקנת עדכון</string>
+    <string name="local_update_import_failure">ייבוא העדכון המקומי נכשל</string>
+    <string name="local_update_import_install">התקן</string>
+    <string name="local_update_import_progress">מייבא עדכון מקומי\u2026</string>
     <!-- Changelog -->
-    <string name="fetch_changelog_failed">Failed to fetch changelog</string>
-    <string name="fetch_changelog_title">Changelog</string>
-    <string name="fetch_changelog_progress">Fetching changelog\u2026</string>
+    <string name="fetch_changelog_failed">אחזור יומן השינויים נכשל</string>
+    <string name="fetch_changelog_title">יומן שינויים</string>
+    <string name="fetch_changelog_progress">מביא יומן שינויים\u2026</string>
+    <string name="copy_changelog">Copy</string>
+    <string name="copy_changelog_success">Successfully copied changelog to clipboard</string>
 </resources>

@@ -42,8 +42,8 @@
     <string name="snack_download_verification_failed">驗證更新失敗</string>
     <string name="snack_download_verified">下載完成.</string>
     <string name="snack_update_not_installable">在當前的版本上無法安裝更新。</string>
-    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> 的 <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> 的 <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">正在驗證更新</string>
     <string name="list_no_updates">未發現新的更新.</string>
     <string name="blocked_update_dialog_title">更新已被阻止</string>
@@ -112,4 +112,6 @@
     <string name="fetch_changelog_failed">抓取更新日誌失敗</string>
     <string name="fetch_changelog_title">更新日誌</string>
     <string name="fetch_changelog_progress">正在抓取更新日誌\u2026</string>
+    <string name="copy_changelog">複製</string>
+    <string name="copy_changelog_success">已成功將更新日誌複製到剪貼板</string>
 </resources>

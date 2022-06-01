@@ -121,4 +121,6 @@
     <string name="fetch_changelog_failed">Не удалось получить список изменений</string>
     <string name="fetch_changelog_title">Список изменений</string>
     <string name="fetch_changelog_progress">Получение списка изменений\u2026</string>
+    <string name="copy_changelog">Копировать</string>
+    <string name="copy_changelog_success">Журнал изменений успешно скопирован в буфер обмена</string>
 </resources>

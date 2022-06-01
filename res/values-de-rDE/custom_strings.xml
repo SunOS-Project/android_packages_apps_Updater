@@ -115,4 +115,6 @@
     <string name="fetch_changelog_failed">Änderungsprotokoll konnte nicht abgerufen werden</string>
     <string name="fetch_changelog_title">Änderungsprotokoll</string>
     <string name="fetch_changelog_progress">Änderungsprotokoll wird abgerufen\u2026</string>
+    <string name="copy_changelog">Kopieren</string>
+    <string name="copy_changelog_success">Changelog erfolgreich in die Zwischenablage kopiert</string>
 </resources>

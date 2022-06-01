@@ -115,4 +115,6 @@
     <string name="fetch_changelog_failed">Falha ao buscar o registro de alterações</string>
     <string name="fetch_changelog_title">Registro de alterações</string>
     <string name="fetch_changelog_progress">Buscando registro de alterações\u2026</string>
+    <string name="copy_changelog">Copiar</string>
+    <string name="copy_changelog_success">Registro de alterações copiado com sucesso para a área de transferência</string>
 </resources>
