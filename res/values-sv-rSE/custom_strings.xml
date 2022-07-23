@@ -47,7 +47,7 @@
     <string name="list_verifying_update">Verifierar uppdatering</string>
     <string name="list_no_updates">Ingen ny uppdatering hittades.</string>
     <string name="blocked_update_dialog_title">Uppdatering blockerad</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">Denna uppdatering kräver en manuell ren installationsprocedur (Rensa/Formatera Data partition innan installation av uppdateringen). Var god ladda ner uppdateringen från vår hemsida, starta om till Återställningsläge och följ procedurerna för att göra så.</string>
     <!-- Actions -->
     <string name="action_download">Ladda ner</string>
     <string name="action_pause">Paus</string>
@@ -64,7 +64,7 @@
     <string name="details_button">Ändringslogg</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Tillämpa uppdatering</string>
-    <string name="apply_update_dialog_message">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
+    <string name="apply_update_dialog_message">Du är på väg att uppgradera till <xliff:g id="update_name">%1$s</xliff:g>.\n\nOm du trycker <xliff:g id="ok">%2$s</xliff:g>, kommer enheten att starta om sig själv till Återställningsläge för att installera uppdateringen.\n\nNotering: Denna funktion kräver kompatibel Återställningsmeny eller så behöver uppdateringarna installeras manuellt.</string>
     <string name="apply_update_dialog_message_ab">Du är på väg att uppgradera till <xliff:g id="update_name">%1$s</xliff:g>.\n\nOm du trycker <xliff:g id="ok">%2$s</xliff:g>, kommer enheten starta installera i bakgrunden.\n\nDu kommer bli ombedd att starta om när det är klart.</string>
     <string name="installing_update">Installerar Uppdateringspaket</string>
     <string name="installing_update_error">Installations fel</string>
