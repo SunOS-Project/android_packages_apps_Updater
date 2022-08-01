@@ -355,7 +355,7 @@ public class UpdatesActivity extends UpdatesListActivity implements UpdateListen
             return;
         }
 
-        UpdateInfo newUpdate = Utils.parseJson(jsonFile, true, this);
+        UpdateInfo newUpdate = Utils.parseJson(jsonFile, this);
         boolean updateAvailable = newUpdate != null;
         if(updateAvailable){
             controller.addUpdate(newUpdate);

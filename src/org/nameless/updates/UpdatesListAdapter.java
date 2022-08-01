@@ -177,11 +177,7 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         if (Utils.getPersistentStatus(mContext) == UpdateStatus.Persistent.VERIFIED) {
             setupOptionMenuListeners(true, viewHolder);
             setButtonAction(viewHolder.mAction,
-                    Utils.canInstall(mUpdate) ? Action.INSTALL : Action.DELETE, !isBusy());
-            viewHolder.mDetails.setVisibility(View.GONE);
-        } else if (!Utils.canInstall(mUpdate)) {
-            setupOptionMenuListeners(false, viewHolder);
-            setButtonAction(viewHolder.mAction, Action.INFO, !isBusy());
+                    Action.INSTALL, !isBusy());
             viewHolder.mDetails.setVisibility(View.GONE);
         } else {
             setupOptionMenuListeners(false, viewHolder);
@@ -233,9 +229,9 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
 
         String buildDate = StringGenerator.getDateLocalizedUTC(mContext,
                 DateFormat.LONG, mUpdate.getTimestamp() / 1000);
-        String buildVersion = mUpdate.getName();
+        String buildName = mUpdate.getName();
         viewHolder.mBuildDate.setText(buildDate);
-        viewHolder.mBuildName.setText(buildVersion);
+        viewHolder.mBuildName.setText(buildName);
         viewHolder.mBuildName.setCompoundDrawables(null, null, null, null);
         viewHolder.mDetails.setOnClickListener(v -> {
             Utils.doHapticFeedback(mContext, mVibrator);
@@ -284,7 +280,18 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
                 button.setText(R.string.action_download);
                 button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_download, 0, 0, 0);
                 button.setEnabled(enabled);
-                clickListener = enabled ? view -> startDownloadWithWarning() : null;
+                clickListener = enabled ? view -> {
+                    if (Utils.isCompatible(mUpdate)) {
+                        startDownloadWithWarning();
+                    } else {
+                        new AlertDialog.Builder(mContext)
+                            .setTitle(mContext.getString(R.string.forbidden_download_title))
+                            .setMessage(mContext.getString(R.string.forbidden_download_summary))
+                            .setPositiveButton(android.R.string.ok, (dialog, which) -> dialog.dismiss())
+                            .create()
+                            .show();
+                    }
+                } : null;
                 break;
             case PAUSE:
                 button.setText(R.string.action_pause);
@@ -297,8 +304,7 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
                 button.setText(R.string.action_resume);
                 button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_resume, 0, 0, 0);
                 button.setEnabled(enabled);
-                final boolean canInstall = Utils.canInstall(mUpdate) ||
-                        mUpdate.getFile().length() == mUpdate.getFileSize();
+                final boolean canInstall = mUpdate.getFile().length() == mUpdate.getFileSize();
                 clickListener = enabled ? view -> {
                     if (canInstall) {
                         mUpdaterController.resumeDownload();
@@ -312,21 +318,9 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
                 button.setText(R.string.action_install);
                 button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_install, 0, 0, 0);
                 button.setEnabled(enabled);
-                final boolean canInstall = Utils.canInstall(mUpdate);
                 clickListener = enabled ? view -> {
-                    if (canInstall) {
-                        getInstallDialog().show();
-                    } else {
-                        showSnackbar(mContext.getString(R.string.snack_update_not_installable));
-                    }
+                    getInstallDialog().show();
                 } : null;
-            }
-            break;
-            case INFO: {
-                button.setText(R.string.details_button);
-                button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_information, 0, 0, 0);
-                button.setEnabled(enabled);
-                clickListener = enabled ? view -> showInfoDialog() : null;
             }
             break;
             case DELETE: {
@@ -442,17 +436,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         mBroadcastManager.sendBroadcast(intent);
     }
 
-    private void showInfoDialog() {
-        if (infoDialog != null) {
-            infoDialog.dismiss();
-        }
-        infoDialog = new AlertDialog.Builder(mContext, R.style.AppTheme_AlertDialogStyle)
-                .setTitle(R.string.blocked_update_dialog_title)
-                .setPositiveButton(android.R.string.ok, null)
-                .setMessage(R.string.blocked_update_dialog_summary)
-                .show();
-    }
-
     private boolean isBatteryLevelOk() {
         Intent intent = mContext.registerReceiver(null,
                 new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
@@ -530,7 +513,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         PAUSE,
         RESUME,
         INSTALL,
-        INFO,
         DELETE,
     }
 

@@ -196,6 +196,7 @@ public class ExtrasFragment extends Fragment {
         update.setTimestamp(timeStamp * 1000);
         update.setStatus(UpdateStatus.VERIFIED);
         update.setVersion(Utils.getVersion());
+        update.setRequiredDate(0);
         return update;
     }
 

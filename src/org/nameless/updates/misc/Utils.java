@@ -90,6 +90,7 @@ public class Utils {
     private static UpdateInfo parseJsonUpdate(JSONObject object, Context context) throws JSONException {
         Update update = new Update();
         update.setTimestamp(object.getLong("date"));
+        update.setRequiredDate(object.getLong("requiredDate"));
         update.setName(object.getString("filename"));
         update.setDownloadId(object.getString("id"));
         update.setFileSize(object.getLong("filesize"));
@@ -100,24 +101,22 @@ public class Utils {
     }
 
     public static boolean isCompatible(UpdateBaseInfo update) {
-        if (update.getVersion().compareTo(getVersion()) < 0) {
-            Log.d(TAG, update.getName() + " with version " + update.getVersion() + " is older than current Android version " + getVersion());
+        if (!(update.getVersion().equalsIgnoreCase(getVersion()))) {
+            Log.d(TAG, update.getName() + " with version " + update.getVersion() + " is different from current Android version " + getVersion());
             return false;
         }
-        if (update.getTimestamp() <= getBuildDate()) {
-            Log.d(TAG, update.getName() + " with timestamp " + update.getTimestamp() + " is older than/equal to the current build " + getBuildDate());
+        if (update.getRequiredDate() > getBuildDate()) {
+            Log.d(TAG, update.getName() + " requires build date " + update.getRequiredDate() + " is newer than current build date " + getBuildDate());
             return false;
         }
         return true;
     }
 
-    public static boolean canInstall(UpdateBaseInfo update) {
-        return (update.getTimestamp() > getBuildDate()) &&
-                update.getVersion().equalsIgnoreCase(getVersion())
-                || update.getName().equals(Update.LOCAL_ID);
+    public static boolean isNewUpdate(UpdateBaseInfo update) {
+        return update.getTimestamp() > getBuildDate();
     }
 
-    public static UpdateInfo parseJson(File file, boolean compatibleOnly, Context context)
+    public static UpdateInfo parseJson(File file, Context context)
             throws IOException, JSONException {
 
         StringBuilder json = new StringBuilder();
@@ -130,10 +129,8 @@ public class Utils {
         JSONObject obj = new JSONObject(json.toString());
         try {
             UpdateInfo update = parseJsonUpdate(obj, context);
-            if (!compatibleOnly || isCompatible(update)) {
+            if (isNewUpdate(update)) {
                 return update;
-            } else {
-                Log.d(TAG, "Ignoring incompatible update " + update.getName());
             }
         } catch (JSONException e) {
             Log.e(TAG, "Could not parse update object", e);
@@ -215,10 +212,10 @@ public class Utils {
     public static boolean checkForNewUpdates(File oldJson, File newJson, boolean fromBoot, Context context)
             throws IOException, JSONException {
         if (!oldJson.exists() || fromBoot) {
-            return parseJson(newJson, true, context) != null;
+            return parseJson(newJson, context) != null;
         }
-        UpdateInfo oldUpdate = parseJson(oldJson, true, context);
-        UpdateInfo newUpdate = parseJson(newJson, true, context);
+        UpdateInfo oldUpdate = parseJson(oldJson, context);
+        UpdateInfo newUpdate = parseJson(newJson, context);
         if (oldUpdate == null || newUpdate == null) {
             return false;
         }

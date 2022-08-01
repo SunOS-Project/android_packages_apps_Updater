@@ -24,6 +24,7 @@ public class UpdateBase implements UpdateBaseInfo {
     private String mDownloadUrl;
     private String mDownloadId;
     private long mTimestamp;
+    private long mRequiredDate;
     private String mVersion;
     private long mFileSize;
     private String mHash;
@@ -36,6 +37,7 @@ public class UpdateBase implements UpdateBaseInfo {
         mDownloadUrl = update.getDownloadUrl();
         mDownloadId = update.getDownloadId();
         mTimestamp = update.getTimestamp();
+        mRequiredDate = update.getRequiredDate();
         mVersion = update.getVersion();
         mFileSize = update.getFileSize();
     }
@@ -65,6 +67,15 @@ public class UpdateBase implements UpdateBaseInfo {
 
     public void setTimestamp(long timestamp) {
         mTimestamp = timestamp;
+    }
+
+    @Override
+    public long getRequiredDate() {
+        return mRequiredDate;
+    }
+
+    public void setRequiredDate(long requiredDate) {
+        mRequiredDate = requiredDate;
     }
 
     @Override
