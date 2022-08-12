@@ -46,8 +46,8 @@
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> 的 <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">正在驗證更新</string>
     <string name="list_no_updates">未發現新的更新.</string>
-    <string name="blocked_update_dialog_title">更新已被阻止</string>
-    <string name="blocked_update_dialog_summary">此更新需要手動全新安裝過程(在安裝更新之前擦除/格式化數據分區)。 請從我們的網站下載更新，重新啟動到Recovery模式並按照程序執行此操作。</string>
+    <string name="forbidden_download_title">禁止下載</string>
+    <string name="forbidden_download_summary">本次更新禁止直接下載安裝。\n\n檢查更改日誌或群組以獲取更多詳細信息。</string>
     <!-- Actions -->
     <string name="action_download">下載</string>
     <string name="action_pause">暫停</string>
@@ -64,7 +64,7 @@
     <string name="details_button">更新日誌</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">應用更新</string>
-    <string name="apply_update_dialog_message">您將要更新到 <xliff:g id="update_name">%1$s</xliff:g>。\n\n如果按下<xliff:g id="ok">%2$s</xliff:g>，您的設備將會重啟到恢復模式並安裝更新。\n\n注意：此功能需要一個兼容的Recovery，否則您將需要手動安裝更新。</string>
+    <string name="apply_update_dialog_message">您將要更新到 <xliff:g id="update_name">%1$s</xliff:g>。\n\n如果按下<xliff:g id="ok">%2$s</xliff:g>，您的設備將會重啟到恢復模式並安裝更新。\n\n注意：此功能需要一個相容的Recovery，否則您將需要手動安裝更新。</string>
     <string name="apply_update_dialog_message_ab">您將要升級到 <xliff:g id="update_name">%1$s</xliff:g>。 \n\n如果您按下<xliff:g id="ok">%2$s</xliff:g>，設備將會在後台進行安裝。 \n\n當安裝完畢後，將會提示您重新啟動。</string>
     <string name="installing_update">正在安裝更新包</string>
     <string name="installing_update_error">安裝錯誤</string>
@@ -74,9 +74,9 @@
     <string name="dialog_battery_low_title">低電量</string>
     <string name="dialog_battery_low_message_pct">電池電量過低，您需要至少 <xliff:g id="percent_discharging">%1$d</xliff:g>%% 的電量才能繼續；如果正在充電，則需要 <xliff:g id="percent_charging">%2$d</xliff:g>%% 的電量才能繼續。</string>
     <!-- Export update -->
-    <string name="dialog_export_title">導出更新至內部存儲空間</string>
-    <string name="notification_export_success">已導出更新至內部存儲空間</string>
-    <string name="notification_export_fail">導出更新至內部存儲空間失敗</string>
+    <string name="dialog_export_title">導出更新至內部儲存空間</string>
+    <string name="notification_export_success">已導出更新至內部儲存空間</string>
+    <string name="notification_export_fail">導出更新至內部儲存空間失敗</string>
     <string name="toast_already_exporting">以導出更新</string>
     <!-- ETA -->
     <plurals name="eta_seconds">

@@ -46,8 +46,8 @@
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> di <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Verifica dell\'aggiornamento</string>
     <string name="list_no_updates">Nessun nuovo aggiornamento trovato.</string>
-    <string name="blocked_update_dialog_title">Aggiornamento bloccato</string>
-    <string name="blocked_update_dialog_summary">Questo aggiornamento richiede una procedura di installazione pulita manuale (cancellazione/formattazione della partizione dati prima di installare l\'aggiornamento). Scarica l\'aggiornamento dal nostro sito Web, riavvia in modalità di ripristino e segui le procedure per farlo.</string>
+    <string name="forbidden_download_title">Download non permesso</string>
+    <string name="forbidden_download_summary">Questo aggiornamento non può essere direttamente scaricato e installato.\n\nControlla le novità o il gruppo per ulteriori informazioni.</string>
     <!-- Actions -->
     <string name="action_download">Download</string>
     <string name="action_pause">Pausa</string>

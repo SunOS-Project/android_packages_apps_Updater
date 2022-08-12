@@ -46,8 +46,8 @@
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">正在验证更新</string>
     <string name="list_no_updates">未发现新的更新</string>
-    <string name="blocked_update_dialog_title">更新已被阻止</string>
-    <string name="blocked_update_dialog_summary">此更新需要清除数据后安装。请从我们的网站下载构建，重启到恢复模式，并按照程序这样做。</string>
+    <string name="forbidden_download_title">无法下载</string>
+    <string name="forbidden_download_summary">此更新无法直接下载并安装。\n\n查看更新日志或群组以了解详情。</string>
     <!-- Actions -->
     <string name="action_download">下载</string>
     <string name="action_pause">暂停</string>

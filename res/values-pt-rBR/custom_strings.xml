@@ -46,8 +46,8 @@
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> de <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Verificando atualização</string>
     <string name="list_no_updates">Nenhuma atualização encontrada.</string>
-    <string name="blocked_update_dialog_title">Atualização bloqueada</string>
-    <string name="blocked_update_dialog_summary">Esta atualização requer uma instalação limpa manual (formatar o aparelho antes da instalação). Por favor, baixe o arquivo do nosso site, entre no modo recuperação e siga os procedimentos para fazê-la.</string>
+    <string name="forbidden_download_title">Download proibido</string>
+    <string name="forbidden_download_summary">O download e a instalação dessa atualização estão proibidos.\n\nConfira o registro de mudanças para mais detalhes.</string>
     <!-- Actions -->
     <string name="action_download">Download</string>
     <string name="action_pause">Pausar</string>

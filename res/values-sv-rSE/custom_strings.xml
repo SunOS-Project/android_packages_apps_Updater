@@ -46,8 +46,8 @@
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> av <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Verifierar uppdatering</string>
     <string name="list_no_updates">Ingen ny uppdatering hittades.</string>
-    <string name="blocked_update_dialog_title">Uppdatering blockerad</string>
-    <string name="blocked_update_dialog_summary">Denna uppdatering kräver en manuell ren installationsprocedur (Rensa/Formatera Data partition innan installation av uppdateringen). Var god ladda ner uppdateringen från vår hemsida, starta om till Återställningsläge och följ procedurerna för att göra så.</string>
+    <string name="forbidden_download_title">Förbjuden nerladdning</string>
+    <string name="forbidden_download_summary">Denna uppdatering är förbjuden att laddas ner direkt och installera.\n\nTitta i ändrings loggen eller gruppen för fler detaljer.</string>
     <!-- Actions -->
     <string name="action_download">Ladda ner</string>
     <string name="action_pause">Paus</string>

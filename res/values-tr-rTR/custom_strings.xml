@@ -46,8 +46,8 @@
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Güncelleme doğrulanıyor</string>
     <string name="list_no_updates">Yeni güncelleme bulunamadı.</string>
-    <string name="blocked_update_dialog_title">Güncelleme engellendi</string>
-    <string name="blocked_update_dialog_summary">Bu güncelleme, manuel bir temiz kurulum prosedürü gerektirir (Güncellemeyi yüklemeden önce Veri bölümünü Silme/Biçimlendirme). Lütfen güncellemeyi web sitemizden indirin, kurtarma moduna yeniden başlatın ve bunu yapmak için prosedürleri izleyin.</string>
+    <string name="forbidden_download_title">Forbidden download</string>
+    <string name="forbidden_download_summary">This update is forbidden to directly download and install.\n\nCheck changelog or group for more details.</string>
     <!-- Actions -->
     <string name="action_download">İndir</string>
     <string name="action_pause">Duraklat</string>
