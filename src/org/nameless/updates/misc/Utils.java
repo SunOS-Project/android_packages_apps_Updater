@@ -16,6 +16,8 @@
  */
 package org.nameless.updates.misc;
 
+import static android.os.CustomVibrationAttributes.VIBRATION_ATTRIBUTES_MISC_SCENES;
+
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
 import android.content.Context;
@@ -29,7 +31,6 @@ import android.os.SystemProperties;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.os.storage.StorageManager;
-import android.provider.Settings;
 import android.util.Log;
 
 import com.google.gson.Gson;
@@ -363,14 +364,8 @@ public class Utils {
     }
 
     public static void doHapticFeedback(Context context, Vibrator vibrator) {
-        if (vibrator != null &&
-            Settings.System.getInt(
-                context.getContentResolver(),
-                Settings.System.HAPTIC_FEEDBACK_ENABLED, 1) != 0 &&
-            Settings.System.getInt(
-                context.getContentResolver(),
-                Settings.System.HAPTIC_ON_SWITCH, 1) != 0) {
-            vibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK));
+        if (vibrator != null) {
+            vibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK), VIBRATION_ATTRIBUTES_MISC_SCENES);
         }
     }
 
