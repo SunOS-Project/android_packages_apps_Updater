@@ -26,7 +26,7 @@
     <string name="verifying_download_notification">Überprüfung des Updates</string>
     <string name="downloading_notification">Wird heruntergeladen</string>
     <string name="download_paused_notification">Download angehalten</string>
-    <string name="download_paused_error_notification">Download Fehler</string>
+    <string name="download_paused_error_notification">Downloadfehler</string>
     <string name="download_completed_notification">Download abgeschlossen</string>
     <string name="download_starting_notification">Download wird gestartet</string>
     <string name="update_failed_notification">Update fehlgeschlagen</string>
@@ -46,10 +46,10 @@
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> von <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Überprüfung des Updates</string>
     <string name="list_no_updates">Keine neuen Updates gefunden.</string>
-    <string name="forbidden_download_title">Forbidden download</string>
-    <string name="forbidden_download_summary">This update is forbidden to directly download and install.\n\nCheck changelog or group for more details.</string>
+    <string name="forbidden_download_title">Verbotener Download</string>
+    <string name="forbidden_download_summary">Es ist nicht erlaubt dieses Update direkt herunterzuladen und zu installieren.\n\nSiehe Änderungen oder Gruppe für weitere Details.</string>
     <!-- Actions -->
-    <string name="action_download">Runterladen</string>
+    <string name="action_download">Herunterladen</string>
     <string name="action_pause">Pause</string>
     <string name="action_resume">Fortsetzen</string>
     <string name="action_install">Installieren</string>
@@ -106,7 +106,7 @@
     <!-- Local update -->
     <string name="local_update_title">Lokales Update</string>
     <string name="local_update_summary">Wenden Sie das Update vom lokalen Speicher an</string>
-    <string name="local_update_import_success">Du hast gewählt:\n%1$s\n\nMöchten Sie es installieren?</string>
+    <string name="local_update_import_success">Sie haben gewählt:\n%1$s\n\nMöchten Sie es installieren?</string>
     <string name="local_update_import_disabled">Lokales Update kann beim Herunterladen oder Installieren des Updates nicht importiert werden</string>
     <string name="local_update_import_failure">Lokales Update konnte nicht importiert werden</string>
     <string name="local_update_import_install">Installieren</string>

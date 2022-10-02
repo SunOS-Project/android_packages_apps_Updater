@@ -46,8 +46,8 @@
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Güncelleme doğrulanıyor</string>
     <string name="list_no_updates">Yeni güncelleme bulunamadı.</string>
-    <string name="forbidden_download_title">Forbidden download</string>
-    <string name="forbidden_download_summary">This update is forbidden to directly download and install.\n\nCheck changelog or group for more details.</string>
+    <string name="forbidden_download_title">İzin verilmeyen indirme</string>
+    <string name="forbidden_download_summary">Bu güncelleme direkt olarak indirmesine ve yüklenilmesine izin verilmiyor. Daha fazla detay için güncelleme kayıtlarını ya da grubu kontrol edin.</string>
     <!-- Actions -->
     <string name="action_download">İndir</string>
     <string name="action_pause">Duraklat</string>
@@ -64,8 +64,8 @@
     <string name="details_button">Değişiklik günlüğü</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
-    <string name="apply_update_dialog_message">&lt;xliff:g id="update_name"&gt;%1$s&lt;/xliff:g&gt; sürümüne geçmek üzeresiniz.\n\n&lt;xliff:g id="ok"&gt;%2$s&lt;/xliff\'e basarsanız:g&gt;, güncellemeyi yüklemek için cihaz kendini kurtarma modunda yeniden başlatır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
-    <string name="apply_update_dialog_message_ab">&lt;xliff:g id="update_name"&gt;%1$s&lt;/xliff:g&gt; sürümüne geçmek üzeresiniz.\n\n&lt;xliff:g id="ok"&gt;%2$s&lt;/xliff\'e basarsanız :g&gt;, güncellemeyi yüklemek için cihaz kendini kurtarma modunda yeniden başlatır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
+    <string name="apply_update_dialog_message">&lt;xliff:g id=\"update_name\"&gt;%1$s&lt;/xliff:g&gt; sürümüne geçmek üzeresiniz.\n\n&lt;xliff:g id=\"ok\"&gt;%2$s&lt;/xliff\'e basarsanız:g&gt;, güncellemeyi yüklemek için cihaz kendini kurtarma modunda yeniden başlatır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
+    <string name="apply_update_dialog_message_ab">&lt;xliff:g id=\"update_name\"&gt;%1$s&lt;/xliff:g&gt; sürümüne geçmek üzeresiniz.\n\n&lt;xliff:g id=\"ok\"&gt;%2$s&lt;/xliff\'e basarsanız :g&gt;, güncellemeyi yüklemek için cihaz kendini kurtarma modunda yeniden başlatır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
     <string name="installing_update">Güncelleme paketini yükleme</string>
     <string name="installing_update_error">Yükleme hatası</string>
     <string name="installing_update_finished">Güncelleme yüklendi</string>

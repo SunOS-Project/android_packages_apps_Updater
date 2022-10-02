@@ -18,7 +18,7 @@
     <!-- App name -->
     <string name="app_name">Оновлення системи</string>
     <!-- Notifications -->
-    <string name="export_channel_title">Завершення експорта</string>
+    <string name="export_channel_title">Завершення експорту</string>
     <string name="new_updates_channel_title">Нові оновлення</string>
     <string name="ongoing_channel_title">Теперішні завантаження</string>
     <string name="update_failed_channel_title">Збій оновлення</string>
@@ -59,12 +59,12 @@
     <string name="pause_button">Пауза</string>
     <string name="resume_button">Продовжити</string>
     <string name="reboot">Перезавантажити</string>
-    <string name="reboot_needed_dialog_title">Потрібно перезавантаження</string>
+    <string name="reboot_needed_dialog_title">Потрібне перезавантаження</string>
     <string name="reboot_needed_dialog_summary">Щоб завершити інсталяцію оновлення, необхідно перезавантажити пристрій.\n\nЯкщо ви хочете зберегти встановлений Magisk, будь ласка, натисніть \"скасувати\" і встановіть Magisk в новий слот перед перезавантаженням.\n\nВи хочете перезавантажити зараз?</string>
     <string name="details_button">Список змін</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Застосувати оновлення</string>
-    <string name="apply_update_dialog_message">Ви збираєтеся оновити систему до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЯкщо нажмете <xliff:g id="ok">%2$s</xliff:g>, пристрій перезавантажиться у відновлювач(recovery) для встановлення оновлення.\n\nПримітка: Ця функція вимагає сумісного рекавері, інакше оновлення доведеться інсталювати вручну.</string>
+    <string name="apply_update_dialog_message">Ви збираєтеся оновити систему до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЯкщо нажмете <xliff:g id="ok">%2$s</xliff:g>, пристрій перезавантажиться в рекавері для встановлення оновлення.\n\nПримітка: Ця функція вимагає сумісного рекавері, інакше оновлення доведеться інсталювати вручну.</string>
     <string name="apply_update_dialog_message_ab">Ви збираєтеся оновити систему до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЯкщо ви натиснете <xliff:g id="ok">%2$s</xliff:g>, пристрій почне встановлення у фоновому режимі.\n\nПісля завершення вам буде запропоновано перезавантажитись.</string>
     <string name="installing_update">Встановлення пакета оновлення</string>
     <string name="installing_update_error">Помилка встановлення</string>
@@ -72,7 +72,7 @@
     <string name="finalizing_package">Завершення встановлення пакету</string>
     <string name="dialog_prepare_zip_message">Попередня підготовка оновлення</string>
     <string name="dialog_battery_low_title">Низький рівень заряду акумулятора</string>
-    <string name="dialog_battery_low_message_pct">Рівень заряду акумулятора занадто низький, вам потрібно не меньше <xliff:g id="percent_discharging">%1$d</xliff:g>%% акумулятора для продовження роботи, <xliff:g id="percent_charging">%2$d</xliff:g>%% при зарядці.</string>
+    <string name="dialog_battery_low_message_pct">Рівень заряду акумулятора занадто низький, вам потрібно не менше <xliff:g id="percent_discharging">%1$d</xliff:g>%% акумулятора для продовження роботи, <xliff:g id="percent_charging">%2$d</xliff:g>%% при зарядці.</string>
     <!-- Export update -->
     <string name="dialog_export_title">Експортування оновлення у внутрішню пам’ять</string>
     <string name="notification_export_success">Оновлення експортовано у внутрішню пам’ять</string>

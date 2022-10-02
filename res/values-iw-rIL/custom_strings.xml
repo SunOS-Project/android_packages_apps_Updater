@@ -46,8 +46,8 @@
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> מתוך <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">מאמת עדכון</string>
     <string name="list_no_updates">לא נמצאו עדכונים חדשים.</string>
-    <string name="forbidden_download_title">Forbidden download</string>
-    <string name="forbidden_download_summary">This update is forbidden to directly download and install.\n\nCheck changelog or group for more details.</string>
+    <string name="forbidden_download_title">הורדה אסורה</string>
+    <string name="forbidden_download_summary">עדכון זה אסור להורדה והתקנה ישירות.\n\nבדוק את יומן השינויים או את הקבוצה לפרטים נוספים.</string>
     <!-- Actions -->
     <string name="action_download">הורדה</string>
     <string name="action_pause">השהה</string>
@@ -80,14 +80,14 @@
     <string name="toast_already_exporting">כבר מייצא עדכון</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
-        <item quantity="one">שניה אחת נותרה</item>
-        <item quantity="two"><xliff:g id="count">%d</xliff:g> שניות נותרו</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> שניות נותרו</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="one">שנייה אחת נותרה</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g>נותרו שתי שניות</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> שניות הרבה נותרו</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> נותרו שניות</item>
     </plurals>
     <plurals name="eta_minutes">
         <item quantity="one">דקה אחת נותרה</item>
-        <item quantity="two"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> דקות נותרו</item>
         <item quantity="many"><xliff:g id="count">%d</xliff:g> דקות נותרו</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
     </plurals>
@@ -121,6 +121,6 @@
     <string name="fetch_changelog_failed">אחזור יומן השינויים נכשל</string>
     <string name="fetch_changelog_title">יומן שינויים</string>
     <string name="fetch_changelog_progress">מביא יומן שינויים\u2026</string>
-    <string name="copy_changelog">Copy</string>
-    <string name="copy_changelog_success">Successfully copied changelog to clipboard</string>
+    <string name="copy_changelog">העתק</string>
+    <string name="copy_changelog_success">יומן השינויים הועתק בהצלחה ללוח</string>
 </resources>
