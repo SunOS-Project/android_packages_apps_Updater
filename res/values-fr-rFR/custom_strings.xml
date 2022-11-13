@@ -37,9 +37,9 @@
     <!-- General -->
     <string name="update_found_notification">Mise à jour système disponible</string>
     <string name="snack_no_updates_found">Aucune mise à jour disponible</string>
-    <string name="snack_updates_check_failed">La vérification de mise à jour a échoué. Veuillez vérifier votre connectivité à Internet et réessayez plus tard.</string>
-    <string name="snack_download_failed">Le téléchargement de mise à jour a échoué. Veuillez vérifier votre connectivité à Internet et réessayez plus tard.</string>
-    <string name="snack_download_verification_failed">La vérification de mise à jour a échoué.</string>
+    <string name="snack_updates_check_failed">La vérification de la mise à jour a échoué. Veuillez vérifier votre connectivité à Internet et réessayez plus tard.</string>
+    <string name="snack_download_failed">Le téléchargement de la mise à jour a échoué. Veuillez vérifier votre connectivité à Internet et réessayez plus tard.</string>
+    <string name="snack_download_verification_failed">La vérification de la mise à jour a échoué.</string>
     <string name="snack_download_verified">Téléchargement terminé.</string>
     <string name="snack_update_not_installable">Cette mise à jour ne peut pas être installée par-dessus de la version actuelle.</string>
     <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> de <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
@@ -65,7 +65,7 @@
     <!-- Installation -->
     <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
     <string name="apply_update_dialog_message">Vous vous apprêtez à mettre à jour votre appareil vers <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi vous appuyez sur <xliff:g id="ok">%2$s</xliff:g>, l\'appareil va automatiquement redémarrer en mode de récupération pour installer la mise à jour.\n\nNote : Cette fonctionnalité requiert un système de récupération compatible, sans quoi les mises à jour devront être installés manuellement.</string>
-    <string name="apply_update_dialog_message_ab">Vous vous apprêtez à mettre à jour votre appareil vers <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi vous appuyez sur <xliff:g id="ok">%2$s</xliff:g>, l\'appareil va installer la mise à jour en arrière-plan.\n\nUne fois terminé, il vous sera demandé de redémarrer.</string>
+    <string name="apply_update_dialog_message_ab">Vous vous apprêtez à mettre à jour votre système avec <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi vous appuyez sur <xliff:g id="ok">%2$s</xliff:g>, l\'appareil va installer la mise à jour en arrière-plan.\n\nUne fois terminé, il vous sera demandé de redémarrer pour profiter de la mise à jour.</string>
     <string name="installing_update">Installation de la mise à jour</string>
     <string name="installing_update_error">Erreur d\'installation</string>
     <string name="installing_update_finished">Mise à jour installée</string>
@@ -99,14 +99,14 @@
     <string name="maintainer_info_title">Mainteneur</string>
     <string name="maintainer_info_unknown">Inconnu</string>
     <string name="donate_info_title">Donner de l\'argent</string>
-    <string name="donate_info_summary">Soutenez le développement du projet</string>
+    <string name="donate_info_summary">Soutenir le développement du projet</string>
     <string name="group_info_title">Telegram</string>
     <string name="group_info_summary">Rejoignez-nous pour obtenir les actualités et du support</string>
     <string name="error_open_url">Impossible d\'ouvrir l\'URL dans le navigateur Internet</string>
     <!-- Local update -->
     <string name="local_update_title">Mise à jour locale</string>
     <string name="local_update_summary">Appliquer une mise à jour depuis l\'espace de stockage interne</string>
-    <string name="local_update_import_success">Vous avez choisi :\n%1$s\n\nSouhaitez vous l\'installer ?</string>
+    <string name="local_update_import_success">Vous avez choisi :\n%1$s\n\nSouhaitez-vous l\'installer ?</string>
     <string name="local_update_import_disabled">Impossible d\'importer une mise à jour locale lorsqu\'un téléchargement ou une installation est en cours</string>
     <string name="local_update_import_failure">Échec de l\'importation de la mise à jour locale</string>
     <string name="local_update_import_install">Installer</string>
@@ -114,7 +114,7 @@
     <!-- Changelog -->
     <string name="fetch_changelog_failed">Impossible de récupérer la liste des modifications</string>
     <string name="fetch_changelog_title">Liste des modifications</string>
-    <string name="fetch_changelog_progress">Réception de la liste des changements\u2026</string>
+    <string name="fetch_changelog_progress">Récupération de la liste des changements\u2026</string>
     <string name="copy_changelog">Copier</string>
     <string name="copy_changelog_success">Liste des changements copiée dans le presse-papier avec succès</string>
 </resources>

@@ -20,20 +20,20 @@
     <!-- Notifications -->
     <string name="export_channel_title">Dokončení exportu</string>
     <string name="new_updates_channel_title">Nové aktualizace</string>
-    <string name="ongoing_channel_title">Průběžné stahování</string>
+    <string name="ongoing_channel_title">Probíhající stahování</string>
     <string name="update_failed_channel_title">Aktualizace se nezdařila</string>
     <string name="verification_failed_notification">Ověření se nezdařilo</string>
     <string name="verifying_download_notification">Ověřování aktualizace</string>
     <string name="downloading_notification">Stahování</string>
-    <string name="download_paused_notification">Stažení pozastaveno</string>
+    <string name="download_paused_notification">Stahování pozastaveno</string>
     <string name="download_paused_error_notification">Chyba při stahování</string>
-    <string name="download_completed_notification">Stažení dokončeno</string>
+    <string name="download_completed_notification">Stahování dokončeno</string>
     <string name="download_starting_notification">Zahájení stahování</string>
     <string name="update_failed_notification">Aktualizace se nezdařila</string>
     <string name="check_for_update">Kontrola aktualizace</string>
     <!-- Menu -->
     <string name="menu_delete_update">Odstranit</string>
-    <string name="menu_export_update">Aktualizace exportu</string>
+    <string name="menu_export_update">Exportovat aktualizace</string>
     <!-- General -->
     <string name="update_found_notification">Aktualizace systému je k dispozici</string>
     <string name="snack_no_updates_found">Nebyly nalezeny žádné nové aktualizace</string>
