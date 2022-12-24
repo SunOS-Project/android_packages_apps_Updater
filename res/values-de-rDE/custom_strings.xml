@@ -64,8 +64,8 @@
     <string name="details_button">Änderungsprotokoll</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Änderungen übernehmen</string>
-    <string name="apply_update_dialog_message">Sie sind dabei, ein Upgrade auf durchzuführen <xliff:g id="update_name">%1$s</xliff:g>.\n\nWenn Sie drücken <xliff:g id="ok">%2$s</xliff:g>, das Gerät startet sich im Wiederherstellungsmodus neu, um das Update zu installieren.\n\nHinweis: Diese Funktion erfordert eine kompatible Wiederherstellung oder Updates müssen manuell installiert werden.</string>
-    <string name="apply_update_dialog_message_ab">Sie sind dabei, ein Upgrade auf durchzuführen <xliff:g id="update_name">%1$s</xliff:g>.\n\nWenn Sie drücken <xliff:g id="ok">%2$s</xliff:g>, das Gerät beginnt mit der Installation im Hintergrund.\n\nNach Abschluss werden Sie zum Neustart aufgefordert.</string>
+    <string name="apply_update_dialog_message">Sie sind dabei, ein Upgrade auf durchzuführen <xliff:g id="update_name">%1$s</xliff:g>.\n\nWenn Sie <xliff:g id="ok">%2$s</xliff:g> drücken, startet sich das Gerät im Wiederherstellungsmodus neu, um das Update zu installieren.\n\nHinweis: Diese Funktion erfordert eine kompatible Wiederherstellung oder Updates müssen manuell installiert werden.</string>
+    <string name="apply_update_dialog_message_ab">Sie sind dabei, ein Upgrade auf durchzuführen <xliff:g id="update_name">%1$s</xliff:g>.\n\nWenn Sie <xliff:g id="ok">%2$s</xliff:g> drücken, beginnt das Gerät mit der Installation im Hintergrund.\n\nNach Abschluss werden Sie zum Neustart aufgefordert.</string>
     <string name="installing_update">Aktualisierungspaket installieren</string>
     <string name="installing_update_error">Installationsfehler</string>
     <string name="installing_update_finished">Aktualisierung installiert</string>
