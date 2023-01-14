@@ -101,7 +101,7 @@
     <string name="donate_info_title">Donner de l\'argent</string>
     <string name="donate_info_summary">Soutenir le développement du projet</string>
     <string name="group_info_title">Telegram</string>
-    <string name="group_info_summary">Rejoignez-nous pour obtenir les actualités et du support</string>
+    <string name="group_info_summary">Rejoindre le groupe pour suivre l\'actualité et obtenir du support</string>
     <string name="error_open_url">Impossible d\'ouvrir l\'URL dans le navigateur Internet</string>
     <!-- Local update -->
     <string name="local_update_title">Mise à jour locale</string>
