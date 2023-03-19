@@ -72,7 +72,7 @@
     <string name="finalizing_package">Finalizowanie instalacji pakietu</string>
     <string name="dialog_prepare_zip_message">Wstępne przygotowanie aktualizacji</string>
     <string name="dialog_battery_low_title">Niski poziom baterii</string>
-    <string name="dialog_battery_low_message_pct">Poziom naładowania baterii jest zbyt niski, potrzebujesz co najmniej <xliff:g id="percent_discharging">%1$d</xliff:g>%% baterii, aby kontynuować, <xliff:g id="percent_charging">%  2$d</xliff:g>%% przy ładowaniu</string>
+    <string name="dialog_battery_low_message_pct">Poziom naładowania baterii jest zbyt niski, potrzebujesz co najmniej <xliff:g id="percent_discharging">%1$d</xliff:g>%% baterii, aby kontynuować, <xliff:g id="percent_charging">%2$d</xliff:g>%% przy ładowaniu</string>
     <!-- Export update -->
     <string name="dialog_export_title">Eksportowanie aktualizacji do pamięci wewnętrznej</string>
     <string name="notification_export_success">Aktualizacja wyeksportowana do pamięci wewnętrznej</string>
