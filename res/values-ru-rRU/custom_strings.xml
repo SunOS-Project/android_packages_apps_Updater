@@ -16,111 +16,111 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App name -->
-    <string name="app_name">Обновление системы</string>
+    <string name="app_name"></string>
     <!-- Notifications -->
-    <string name="export_channel_title">Завершение экспорта</string>
-    <string name="new_updates_channel_title">Новые обновления</string>
-    <string name="ongoing_channel_title">Текущие загрузки</string>
-    <string name="update_failed_channel_title">Сбой обновления</string>
-    <string name="verification_failed_notification">Проверка не удалась</string>
-    <string name="verifying_download_notification">Проверка обновления</string>
-    <string name="downloading_notification">Загрузка</string>
-    <string name="download_paused_notification">Загрузка приостановлена</string>
-    <string name="download_paused_error_notification">Ошибка загрузки</string>
-    <string name="download_completed_notification">Загрузка завершена</string>
-    <string name="download_starting_notification">Начало загрузки</string>
-    <string name="update_failed_notification">Сбой обновления</string>
-    <string name="check_for_update">Проверить обновления</string>
+    <string name="export_channel_title"></string>
+    <string name="new_updates_channel_title"></string>
+    <string name="ongoing_channel_title"></string>
+    <string name="update_failed_channel_title"></string>
+    <string name="verification_failed_notification"></string>
+    <string name="verifying_download_notification"></string>
+    <string name="downloading_notification"></string>
+    <string name="download_paused_notification"></string>
+    <string name="download_paused_error_notification"></string>
+    <string name="download_completed_notification"></string>
+    <string name="download_starting_notification"></string>
+    <string name="update_failed_notification"></string>
+    <string name="check_for_update"></string>
     <!-- Menu -->
-    <string name="menu_delete_update">Удалить</string>
-    <string name="menu_export_update">Экспорт обновления</string>
+    <string name="menu_delete_update"></string>
+    <string name="menu_export_update"></string>
     <!-- General -->
-    <string name="update_found_notification">Доступно обновление системы</string>
-    <string name="snack_no_updates_found">Новые обновления не найдены</string>
-    <string name="snack_updates_check_failed">Проверка обновления не удалась. Пожалуйста, проверьте подключение к Интернету и повторите попытку позже.</string>
-    <string name="snack_download_failed">Загрузка не удалась. Пожалуйста, проверьте подключение к Интернету и повторите попытку позже.</string>
-    <string name="snack_download_verification_failed">Проверка обновления не удалась.</string>
-    <string name="snack_download_verified">Загрузка завершена.</string>
-    <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
-    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> из <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> из <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
-    <string name="list_verifying_update">Проверка обновления</string>
-    <string name="list_no_updates">Новые обновления не найдены.</string>
-    <string name="forbidden_download_title">Запрещенная загрузка</string>
-    <string name="forbidden_download_summary">Это обновление запрещено для прямого скачивания и установки.\n\nПосмотрите журнал изменений или группу для получения более подробной информации.</string>
+    <string name="update_found_notification"></string>
+    <string name="snack_no_updates_found"></string>
+    <string name="snack_updates_check_failed"></string>
+    <string name="snack_download_failed"></string>
+    <string name="snack_download_verification_failed"></string>
+    <string name="snack_download_verified"></string>
+    <string name="snack_update_not_installable"></string>
+    <string name="list_download_progress_new"></string>
+    <string name="list_download_progress_eta_new"></string>
+    <string name="list_verifying_update"></string>
+    <string name="list_no_updates"></string>
+    <string name="forbidden_download_title"></string>
+    <string name="forbidden_download_summary"></string>
     <!-- Actions -->
-    <string name="action_download">Загрузить</string>
-    <string name="action_pause">Пауза</string>
-    <string name="action_resume">Возобновить</string>
-    <string name="action_install">Установить</string>
-    <string name="action_delete">Удалить</string>
-    <string name="confirm_delete_dialog_title">Удалить файл</string>
-    <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления?</string>
-    <string name="pause_button">Пауза</string>
-    <string name="resume_button">Возобновить</string>
-    <string name="reboot">Перезагрузить</string>
-    <string name="reboot_needed_dialog_title">Требуется перезагрузка</string>
-    <string name="reboot_needed_dialog_summary">Для завершения установки обновления необходимо перезагрузить устройство.\n\nЕсли вы хотите сохранить установленный Magisk, пожалуйста, нажмите \"отмена\" и установите Magisk в новый слот перед перезагрузкой.\n\nВы хотите перезагрузиться сейчас?</string>
-    <string name="details_button">Список изменений</string>
+    <string name="action_download"></string>
+    <string name="action_pause"></string>
+    <string name="action_resume"></string>
+    <string name="action_install"></string>
+    <string name="action_delete"></string>
+    <string name="confirm_delete_dialog_title"></string>
+    <string name="confirm_delete_dialog_message"></string>
+    <string name="pause_button"></string>
+    <string name="resume_button"></string>
+    <string name="reboot"></string>
+    <string name="reboot_needed_dialog_title"></string>
+    <string name="reboot_needed_dialog_summary"></string>
+    <string name="details_button"></string>
     <!-- Installation -->
-    <string name="apply_update_dialog_title">Применить обновление</string>
-    <string name="apply_update_dialog_message">Сейчас вы обновитесь до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЕсли вы нажмете <xliff:g id="ok">%2$s</xliff:g>, устройство перезагрузится в рекавери для установки обновления.\n\nПримечание: Эта функция требует совместимого рекавери, иначе обновления придётся устанавливать вручную.</string>
-    <string name="apply_update_dialog_message_ab">Вы собираетесь обновить систему до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЕсли вы нажмёте <xliff:g id="ok">%2$s</xliff:g>, устройство начнёт установку в фоновом режиме.\n\nПосле завершения вам будет предложено перезагрузиться.</string>
-    <string name="installing_update">Установка пакета обновления</string>
-    <string name="installing_update_error">Ошибка установки</string>
-    <string name="installing_update_finished">Обновление установлено</string>
-    <string name="finalizing_package">Завершение установки обновления</string>
-    <string name="dialog_prepare_zip_message">Предварительная подготовка обновления</string>
-    <string name="dialog_battery_low_title">Низкий заряд батареи</string>
-    <string name="dialog_battery_low_message_pct">Уровень заряда батареи слишком низкий, вам нужно не менее <xliff:g id="percent_discharging">%1$d</xliff:g>%% батареи для продолжения работы, <xliff:g id="percent_charging">%2$d</xliff:g>%% при зарядке.</string>
+    <string name="apply_update_dialog_title"></string>
+    <string name="apply_update_dialog_message"></string>
+    <string name="apply_update_dialog_message_ab"></string>
+    <string name="installing_update"></string>
+    <string name="installing_update_error"></string>
+    <string name="installing_update_finished"></string>
+    <string name="finalizing_package"></string>
+    <string name="dialog_prepare_zip_message"></string>
+    <string name="dialog_battery_low_title"></string>
+    <string name="dialog_battery_low_message_pct"></string>
     <!-- Export update -->
-    <string name="dialog_export_title">Экспорт обновления во внутреннее хранилище</string>
-    <string name="notification_export_success">Обновление экспортируется во внутреннее хранилище</string>
-    <string name="notification_export_fail">Не удалось экспортировать обновление во внутреннее хранилище</string>
-    <string name="toast_already_exporting">Обновление уже экспортировано</string>
+    <string name="dialog_export_title"></string>
+    <string name="notification_export_success"></string>
+    <string name="notification_export_fail"></string>
+    <string name="toast_already_exporting"></string>
     <!-- ETA -->
     <plurals name="eta_seconds">
-        <item quantity="one">Осталась <xliff:g id="count">%d</xliff:g> секунда</item>
-        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> секунды</item>
-        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> секунд</item>
-        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> секунд</item>
+        <item quantity="one"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+        <item quantity="other"></item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one">Осталась <xliff:g id="count">%d</xliff:g> минута</item>
-        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> минуты</item>
-        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> минут</item>
-        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> минут</item>
+        <item quantity="one"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+        <item quantity="other"></item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">Остался <xliff:g id="count">%d</xliff:g> час</item>
-        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> часа</item>
-        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> часов</item>
-        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> часов</item>
+        <item quantity="one"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+        <item quantity="other"></item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Внимание</string>
-    <string name="update_on_mobile_data_message">Вы собираетесь загрузить обновление, используя мобильный Интернет, что может привести к высокому расходу данных. Вы хотите продолжить?</string>
-    <string name="checkbox_mobile_data_warning">Больше не показывать</string>
+    <string name="update_on_mobile_data_title"></string>
+    <string name="update_on_mobile_data_message"></string>
+    <string name="checkbox_mobile_data_warning"></string>
     <!-- Info section -->
-    <string name="maintainer_info_title">Сопровождающий</string>
-    <string name="maintainer_info_unknown">Неизвестно</string>
-    <string name="donate_info_title">Донат</string>
-    <string name="donate_info_summary">Поддержать разработку</string>
-    <string name="group_info_title">Telegram</string>
-    <string name="group_info_summary">Присоединиться, чтобы следить за новостями и получать поддержку</string>
-    <string name="error_open_url">Не удалось открыть URL-адрес в браузере</string>
+    <string name="maintainer_info_title"></string>
+    <string name="maintainer_info_unknown"></string>
+    <string name="donate_info_title"></string>
+    <string name="donate_info_summary"></string>
+    <string name="group_info_title"></string>
+    <string name="group_info_summary"></string>
+    <string name="error_open_url"></string>
     <!-- Local update -->
-    <string name="local_update_title">Локальное обновление</string>
-    <string name="local_update_summary">Применить обновление из локального хранилища</string>
-    <string name="local_update_import_success">Вы выбрали:\n%1$s\n\nВы хотите установить эту версию?</string>
-    <string name="local_update_import_disabled">Невозможно импортировать локальное обновление во время загрузки или установки обновлений</string>
-    <string name="local_update_import_failure">Не удалось импортировать локальное обновление</string>
-    <string name="local_update_import_install">Установить</string>
-    <string name="local_update_import_progress">Импорт локального обновления\u2026</string>
+    <string name="local_update_title"></string>
+    <string name="local_update_summary"></string>
+    <string name="local_update_import_success"></string>
+    <string name="local_update_import_disabled"></string>
+    <string name="local_update_import_failure"></string>
+    <string name="local_update_import_install"></string>
+    <string name="local_update_import_progress"></string>
     <!-- Changelog -->
-    <string name="fetch_changelog_failed">Не удалось получить список изменений</string>
-    <string name="fetch_changelog_title">Список изменений</string>
-    <string name="fetch_changelog_progress">Получение списка изменений\u2026</string>
-    <string name="copy_changelog">Копировать</string>
-    <string name="copy_changelog_success">Журнал изменений успешно скопирован в буфер обмена</string>
+    <string name="fetch_changelog_failed"></string>
+    <string name="fetch_changelog_title"></string>
+    <string name="fetch_changelog_progress"></string>
+    <string name="copy_changelog"></string>
+    <string name="copy_changelog_success"></string>
 </resources>

@@ -33,7 +33,7 @@
     <string name="check_for_update">Sprawdź aktualizację</string>
     <!-- Menu -->
     <string name="menu_delete_update">Usuń</string>
-    <string name="menu_export_update">Wyeksportuj aktualizację</string>
+    <string name="menu_export_update">Eksportuj aktualizację</string>
     <!-- General -->
     <string name="update_found_notification">Aktualizacja systemu jest dostępna</string>
     <string name="snack_no_updates_found">Brak aktualizacji</string>
@@ -107,11 +107,11 @@
     <string name="donate_info_title">Dotacja</string>
     <string name="donate_info_summary">Wspieraj rozwój</string>
     <string name="group_info_title">Telegram</string>
-    <string name="group_info_summary">Dołącz, żeby otrzymywać wiadomości &amp; wsparcie</string>
+    <string name="group_info_summary">Dołącz, żeby otrzymywać wsparcie i najnowsze wiadomości</string>
     <string name="error_open_url">Nie udało się otworzyć adresu URL w przeglądarce</string>
     <!-- Local update -->
     <string name="local_update_title">Aktualizacja lokalna</string>
-    <string name="local_update_summary">Aktualizuj z pamięci wewnętrznej</string>
+    <string name="local_update_summary">Aktualizuj plikiem z pamięci wewnętrznej</string>
     <string name="local_update_import_success">Wybrałeś:\n%1$s\n\nCzy chcesz zainstalować?</string>
     <string name="local_update_import_disabled">Nie można importować aktualizacji lokalnej w trakcie pobierania lub instalowania aktualizacji</string>
     <string name="local_update_import_failure">Nie udało się zaimportować aktualizacji lokalnej</string>
