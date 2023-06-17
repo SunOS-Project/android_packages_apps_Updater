@@ -16,7 +16,7 @@
  */
 package org.nameless.updates.misc;
 
-import static android.os.CustomVibrationAttributes.VIBRATION_ATTRIBUTES_MISC_SCENES;
+import static org.nameless.vibrator.CustomVibrationAttributes.VIBRATION_ATTRIBUTES_MISC_SCENES;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
