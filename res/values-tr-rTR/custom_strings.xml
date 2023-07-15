@@ -64,8 +64,8 @@
     <string name="details_button">Değişiklik günlüğü</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
-    <string name="apply_update_dialog_message">&lt;xliff:g id=\"update_name\"&gt;%1$s&lt;/xliff:g&gt; sürümüne geçmek üzeresiniz.\n\n&lt;xliff:g id=\"ok\"&gt;%2$s&lt;/xliff\'e basarsanız:g&gt;, güncellemeyi yüklemek için cihaz kendini kurtarma modunda yeniden başlatır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
-    <string name="apply_update_dialog_message_ab">&lt;xliff:g id=\"update_name\"&gt;%1$s&lt;/xliff:g&gt; sürümüne geçmek üzeresiniz.\n\n&lt;xliff:g id=\"ok\"&gt;%2$s&lt;/xliff\'e basarsanız :g&gt;, güncellemeyi yüklemek için cihaz kendini kurtarma modunda yeniden başlatır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
+    <string name="apply_update_dialog_message">%1$s sürümüne geçmek üzeresiniz.\n\n%2$s\'a basarsanız, güncellemeyi yüklemek için cihaz kendini kurtarma modunda yeniden başlatır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
+    <string name="apply_update_dialog_message_ab">%1$s sürümüne geçmek üzeresiniz.\n\n%2$s\'a basarsanız, güncellemeyi yüklemek için cihaz kendini kurtarma modunda yeniden başlatır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
     <string name="installing_update">Güncelleme paketini yükleme</string>
     <string name="installing_update_error">Yükleme hatası</string>
     <string name="installing_update_finished">Güncelleme yüklendi</string>

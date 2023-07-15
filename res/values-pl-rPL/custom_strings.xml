@@ -65,7 +65,7 @@
     <!-- Installation -->
     <string name="apply_update_dialog_title">Zastosuj aktualizację</string>
     <string name="apply_update_dialog_message">Za chwilę dokonasz aktualizacji do &lt;xliff:g id="update_name"&gt;%1$s&lt;/xliff:g&gt;.\n\nJeśli naciśniesz &lt;xliff:g id="ok"&gt;%2$s&lt;/xliff :g&gt;, urządzenie uruchomi się ponownie w trybie Recovery, aby zastosować aktualizację.\n\nUwaga: Ta funkcja wymaga odpowiedniego Recovery albo aktualizacje będą musiały zostać zainstalowane ręcznie.</string>
-    <string name="apply_update_dialog_message_ab">Zamierzasz zaktualizować oprogramowanie do &lt;xliff:g id="update_name"&gt;%1$s&lt;/xliff:g&gt;.\n\nJeśli naciśniesz &lt;xliff:g id="ok"&gt;%2$s&lt;/xliff  :g&gt;, urządzenie rozpocznie instalację w tle.\n\nPo zakończeniu pojawi się prośba o ponowne uruchomienie.</string>
+    <string name="apply_update_dialog_message_ab">Zamierzasz zaktualizować oprogramowanie do wersji <xliff:g id="update_name">%1$s</xliff:g>.\n\nJeśli naciśniesz <xliff:g id="ok">%2$s</xliff:g>, urządzenie rozpocznie instalację w tle.\n\nPo zakończeniu pojawi się prośba o ponowne uruchomienie.</string>
     <string name="installing_update">Instalowanie pakietu aktualizacji</string>
     <string name="installing_update_error">Błąd instalacji</string>
     <string name="installing_update_finished">Aktualizacja zainstalowana</string>
