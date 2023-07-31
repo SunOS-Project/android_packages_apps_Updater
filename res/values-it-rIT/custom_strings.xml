@@ -49,7 +49,7 @@
     <string name="forbidden_download_title">Download non permesso</string>
     <string name="forbidden_download_summary">Questo aggiornamento non può essere direttamente scaricato e installato.\n\nControlla le novità o il gruppo per ulteriori informazioni.</string>
     <!-- Actions -->
-    <string name="action_download">Download</string>
+    <string name="action_download">Scarica</string>
     <string name="action_pause">Pausa</string>
     <string name="action_resume">Riprendi</string>
     <string name="action_install">Installa</string>
