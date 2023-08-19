@@ -37,17 +37,17 @@
     <!-- General -->
     <string name="update_found_notification">Доступно обновление системы</string>
     <string name="snack_no_updates_found">Новые обновления не найдены</string>
-    <string name="snack_updates_check_failed">Проверка обновления не удалась. Пожалуйста, проверьте подключение к Интернету и повторите попытку позже.</string>
-    <string name="snack_download_failed">Загрузка не удалась. Пожалуйста, проверьте подключение к Интернету и повторите попытку позже.</string>
+    <string name="snack_updates_check_failed">Проверка обновления не удалась. Пожалуйста, проверьте подключение к интернету и повторите попытку позже.</string>
+    <string name="snack_download_failed">Загрузка не удалась. Пожалуйста, проверьте подключение к интернету и повторите попытку позже.</string>
     <string name="snack_download_verification_failed">Проверка обновления не удалась.</string>
     <string name="snack_download_verified">Загрузка завершена.</string>
-    <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
+    <string name="snack_update_not_installable">Данное обновление не может быть установлено поверх текущей сборки.</string>
     <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> из <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> из <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Проверка обновления</string>
     <string name="list_no_updates">Новые обновления не найдены.</string>
-    <string name="forbidden_download_title">Запрещенная загрузка</string>
-    <string name="forbidden_download_summary">Это обновление запрещено для прямого скачивания и установки.\n\nПосмотрите журнал изменений или группу для получения более подробной информации.</string>
+    <string name="forbidden_download_title">Загрузка запрещена</string>
+    <string name="forbidden_download_summary">Прямая загрузка и установка данного обновления запрещена.\n\nПодробности можно найти в журнале изменений или группе.</string>
     <!-- Actions -->
     <string name="action_download">Загрузить</string>
     <string name="action_pause">Пауза</string>
@@ -60,24 +60,24 @@
     <string name="resume_button">Возобновить</string>
     <string name="reboot">Перезагрузить</string>
     <string name="reboot_needed_dialog_title">Требуется перезагрузка</string>
-    <string name="reboot_needed_dialog_summary">Для завершения установки обновления необходимо перезагрузить устройство.\n\nЕсли вы хотите сохранить установленный Magisk, пожалуйста, нажмите \"отмена\" и установите Magisk в новый слот перед перезагрузкой.\n\nВы хотите перезагрузиться сейчас?</string>
+    <string name="reboot_needed_dialog_summary">Для завершения установки обновления необходимо перезагрузить устройство.\n\nЕсли вы хотите сохранить установленный Magisk, пожалуйста, нажмите \"отмена\" и установите Magisk в новый слот перед перезагрузкой.\n\nВы хотите выполнить перезагрузку сейчас?</string>
     <string name="details_button">Список изменений</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Применить обновление</string>
-    <string name="apply_update_dialog_message">Сейчас вы обновитесь до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЕсли вы нажмете <xliff:g id="ok">%2$s</xliff:g>, устройство перезагрузится в рекавери для установки обновления.\n\nПримечание: Эта функция требует совместимого рекавери, иначе обновления придётся устанавливать вручную.</string>
-    <string name="apply_update_dialog_message_ab">Вы собираетесь обновить систему до <xliff:g id="update_name">%1$s</xliff:g>.\n\nЕсли вы нажмёте <xliff:g id="ok">%2$s</xliff:g>, устройство начнёт установку в фоновом режиме.\n\nПосле завершения вам будет предложено перезагрузиться.</string>
-    <string name="installing_update">Установка пакета обновления</string>
+    <string name="apply_update_dialog_message">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> устройство перезагрузится в рекавери для его установки.\n\nПримечание: Эта функция требует совместимого рекавери, иначе обновления придется устанавливать вручную.</string>
+    <string name="apply_update_dialog_message_ab">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> будет начата установка в фоновом режиме.\n\nПо завершении вам будет предложено перезапустить устройство.</string>
+    <string name="installing_update">Установка обновления</string>
     <string name="installing_update_error">Ошибка установки</string>
     <string name="installing_update_finished">Обновление установлено</string>
     <string name="finalizing_package">Завершение установки обновления</string>
     <string name="dialog_prepare_zip_message">Предварительная подготовка обновления</string>
     <string name="dialog_battery_low_title">Низкий заряд батареи</string>
-    <string name="dialog_battery_low_message_pct">Уровень заряда батареи слишком низкий, вам нужно не менее <xliff:g id="percent_discharging">%1$d</xliff:g>%% батареи для продолжения работы, <xliff:g id="percent_charging">%2$d</xliff:g>%% при зарядке.</string>
+    <string name="dialog_battery_low_message_pct">Уровень заряда батареи слишком низкий, для продолжения необходимо хотя бы <xliff:g id="percent_discharging">%1$d</xliff:g>%% заряда или <xliff:g id="percent_charging">%2$d</xliff:g>%% во время зарядки.</string>
     <!-- Export update -->
-    <string name="dialog_export_title">Экспорт обновления во внутреннее хранилище</string>
-    <string name="notification_export_success">Обновление экспортируется во внутреннее хранилище</string>
-    <string name="notification_export_fail">Не удалось экспортировать обновление во внутреннее хранилище</string>
-    <string name="toast_already_exporting">Обновление уже экспортировано</string>
+    <string name="dialog_export_title">Экспорт обновления во внутреннюю память</string>
+    <string name="notification_export_success">Обновление экспортировано во внутреннюю память</string>
+    <string name="notification_export_fail">Не удалось экспортировать обновление во внутреннюю память</string>
+    <string name="toast_already_exporting">Обновление уже экспортируется</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="one">Осталась <xliff:g id="count">%d</xliff:g> секунда</item>
@@ -99,7 +99,7 @@
     </plurals>
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">Внимание</string>
-    <string name="update_on_mobile_data_message">Вы собираетесь загрузить обновление, используя мобильный Интернет, что может привести к высокому расходу данных. Вы хотите продолжить?</string>
+    <string name="update_on_mobile_data_message">Скачивание обновления по мобильной сети расходует большой объем трафика и может привести к непредвиденным расходам. Продолжить?</string>
     <string name="checkbox_mobile_data_warning">Больше не показывать</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Сопровождающий</string>
@@ -108,11 +108,11 @@
     <string name="donate_info_summary">Поддержать разработку</string>
     <string name="group_info_title">Telegram</string>
     <string name="group_info_summary">Присоединиться, чтобы следить за новостями и получать поддержку</string>
-    <string name="error_open_url">Не удалось открыть URL-адрес в браузере</string>
+    <string name="error_open_url">Не удалось открыть URL в браузере</string>
     <!-- Local update -->
     <string name="local_update_title">Локальное обновление</string>
     <string name="local_update_summary">Применить обновление из локального хранилища</string>
-    <string name="local_update_import_success">Вы выбрали:\n%1$s\n\nВы хотите установить эту версию?</string>
+    <string name="local_update_import_success">Выбранная версия:\n%1$s\n\nУстановить ее?</string>
     <string name="local_update_import_disabled">Невозможно импортировать локальное обновление во время загрузки или установки обновлений</string>
     <string name="local_update_import_failure">Не удалось импортировать локальное обновление</string>
     <string name="local_update_import_install">Установить</string>
