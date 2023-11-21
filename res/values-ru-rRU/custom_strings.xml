@@ -60,7 +60,7 @@
     <string name="resume_button">Возобновить</string>
     <string name="reboot">Перезагрузить</string>
     <string name="reboot_needed_dialog_title">Требуется перезагрузка</string>
-    <string name="reboot_needed_dialog_summary">Для завершения установки обновления необходимо перезагрузить устройство.\n\nЕсли вы хотите сохранить установленный Magisk, пожалуйста, нажмите \"отмена\" и установите Magisk в новый слот перед перезагрузкой.\n\nВы хотите выполнить перезагрузку сейчас?</string>
+    <string name="reboot_needed_dialog_summary">Чтобы завершить установку обновления, необходимо перезагрузить устройство.\n\nЕсли вы хотите сохранить установленный Magisk, пожалуйста, нажмите \"отмена\" и установите Magisk в новый слот перед перезагрузкой.\n\nВы хотите выполнить перезагрузку сейчас?</string>
     <string name="details_button">Список изменений</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Применить обновление</string>
