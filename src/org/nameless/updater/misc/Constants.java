@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updates.misc;
+package org.nameless.updater.misc;
 
 public final class Constants {
     public static final String AB_PAYLOAD_BIN_PATH = "payload.bin";

@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updates;
+package org.nameless.updater;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -23,13 +23,13 @@ import android.content.SharedPreferences;
 
 import androidx.preference.PreferenceManager;
 
-import org.nameless.updates.misc.Constants;
-import org.nameless.updates.misc.Utils;
+import org.nameless.updater.misc.Constants;
+import org.nameless.updater.misc.Utils;
 
 public class UpdaterReceiver extends BroadcastReceiver {
 
     public static final String ACTION_INSTALL_REBOOT =
-            "org.nameless.updates.action.INSTALL_REBOOT";
+            "org.nameless.updater.action.INSTALL_REBOOT";
 
     @Override
     public void onReceive(Context context, Intent intent) {

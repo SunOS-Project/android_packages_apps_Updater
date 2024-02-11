@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updates.misc;
+package org.nameless.updater.misc;
 
 import android.content.Context;
 import android.content.res.Resources;
 
-import org.nameless.updates.R;
+import org.nameless.updater.R;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package org.nameless.updates;
+package org.nameless.updater;
 
 import android.content.Context;
 import android.content.res.TypedArray;

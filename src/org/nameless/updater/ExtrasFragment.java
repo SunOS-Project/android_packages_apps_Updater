@@ -1,4 +1,4 @@
-package org.nameless.updates;
+package org.nameless.updater;
 
 import static android.provider.OpenableColumns.DISPLAY_NAME;
 
@@ -24,12 +24,12 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.nameless.updates.controller.UpdaterController;
-import org.nameless.updates.misc.Utils;
-import org.nameless.updates.model.Update;
-import org.nameless.updates.model.UpdateStatus;
+import org.nameless.updater.controller.UpdaterController;
+import org.nameless.updater.misc.Utils;
+import org.nameless.updater.model.Update;
+import org.nameless.updater.model.UpdateStatus;
 
-import org.nameless.updates.R;
+import org.nameless.updater.R;
 
 import java.io.File;
 import java.io.FileInputStream;

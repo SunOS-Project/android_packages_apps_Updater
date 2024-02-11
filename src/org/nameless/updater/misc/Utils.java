@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updates.misc;
+package org.nameless.updater.misc;
 
 import static org.nameless.vibrator.CustomVibrationAttributes.VIBRATION_ATTRIBUTES_MISC_SCENES;
 
@@ -39,11 +39,11 @@ import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.nameless.updates.controller.UpdaterService;
-import org.nameless.updates.model.Update;
-import org.nameless.updates.model.UpdateBaseInfo;
-import org.nameless.updates.model.UpdateInfo;
-import org.nameless.updates.model.UpdateStatus;
+import org.nameless.updater.controller.UpdaterService;
+import org.nameless.updater.model.Update;
+import org.nameless.updater.model.UpdateBaseInfo;
+import org.nameless.updater.model.UpdateInfo;
+import org.nameless.updater.model.UpdateStatus;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -376,7 +376,7 @@ public class Utils {
         try {
             URL getUrl = new URL(url);
             HttpURLConnection conn = (HttpURLConnection) getUrl.openConnection();
-            conn.setRequestProperty("User-Agent", "org.nameless.updates");
+            conn.setRequestProperty("User-Agent", "org.nameless.updater");
             conn.setConnectTimeout(3000);
             conn.connect();
             BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream(), "utf-8"));

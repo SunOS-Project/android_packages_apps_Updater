@@ -14,14 +14,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updates.model;
+package org.nameless.updater.model;
 
-import java.io.File;
+public enum UpdateStatus {
+    UNKNOWN,
+    STARTING,
+    DOWNLOADING,
+    DOWNLOADED,
+    PAUSED,
+    DOWNLOAD_ERROR,
+    DELETED,
+    VERIFYING,
+    VERIFIED,
+    VERIFICATION_FAILED,
+    INSTALLING,
+    INSTALLATION_FAILED;
 
-public interface UpdateInfo extends UpdateBaseInfo {
-    UpdateStatus getStatus();
-
-    File getFile();
-
-    long getFileSize();
+    public static final class Persistent {
+        public static final int UNKNOWN = 0;
+        public static final int STARTING_DOWNLOAD = 1;
+        public static final int DOWNLOADING = 2;
+        public static final int VERIFIED = 3;
+    }
 }

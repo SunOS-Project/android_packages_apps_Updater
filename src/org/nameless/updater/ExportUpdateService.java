@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updates;
+package org.nameless.updater;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
@@ -30,7 +30,7 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.nameless.updates.misc.FileUtils;
+import org.nameless.updater.misc.FileUtils;
 
 import java.io.File;
 import java.io.IOException;

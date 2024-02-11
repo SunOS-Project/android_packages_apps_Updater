@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updates;
+package org.nameless.updater;
 
 import androidx.appcompat.app.AppCompatActivity;
 

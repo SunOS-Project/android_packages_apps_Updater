@@ -14,24 +14,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updates.model;
+package org.nameless.updater.model;
 
-import java.util.ArrayList;
+import java.io.File;
 
-public interface UpdateBaseInfo {
-    String getName();
+public interface UpdateInfo extends UpdateBaseInfo {
+    UpdateStatus getStatus();
 
-    String getDownloadId();
-
-    long getTimestamp();
-
-    long getRequiredDate();
-
-    String getVersion();
-
-    String getDownloadUrl();
+    File getFile();
 
     long getFileSize();
-
-    String getHash();
 }

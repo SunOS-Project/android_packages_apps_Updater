@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updates;
+package org.nameless.updater;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -45,13 +45,13 @@ import androidx.appcompat.widget.PopupMenu;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.nameless.updates.controller.UpdaterController;
-import org.nameless.updates.misc.Constants;
-import org.nameless.updates.misc.StringGenerator;
-import org.nameless.updates.misc.Utils;
-import org.nameless.updates.model.Update;
-import org.nameless.updates.model.UpdateInfo;
-import org.nameless.updates.model.UpdateStatus;
+import org.nameless.updater.controller.UpdaterController;
+import org.nameless.updater.misc.Constants;
+import org.nameless.updater.misc.StringGenerator;
+import org.nameless.updater.misc.Utils;
+import org.nameless.updater.model.Update;
+import org.nameless.updater.model.UpdateInfo;
+import org.nameless.updater.model.UpdateStatus;
 
 import java.text.DateFormat;
 import java.text.NumberFormat;
