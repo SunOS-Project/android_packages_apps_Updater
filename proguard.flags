@@ -1,0 +1,6 @@
+-keep class org.nameless.updater.ExportUpdateService
+-keep class org.nameless.updater.ExtraCardView
+-keep class org.nameless.updater.UpdatesActivity
+-keep class org.nameless.updater.UpdatesCheckReceiver
+-keep class org.nameless.updater.UpdaterReceiver
+-keep class org.nameless.updater.controller.UpdaterService

@@ -15,6 +15,13 @@ android_app {
         "privapp_whitelist_org.nameless.updater",
         "default-permissions_org.nameless.updater",
     ],
+    optimize: {
+        enabled: true,
+        obfuscate: true,
+        shrink: true,
+        shrink_resources: true,
+        proguard_flags_files: ["proguard.flags"],
+    },
     srcs: [
         "src/**/*.java",
     ],
