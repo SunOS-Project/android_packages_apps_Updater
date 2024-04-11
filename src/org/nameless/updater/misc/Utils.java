@@ -16,7 +16,8 @@
  */
 package org.nameless.updater.misc;
 
-import static org.nameless.os.CustomVibrationAttributes.VIBRATION_ATTRIBUTES_MISC_SCENES;
+import static vendor.nameless.hardware.vibratorExt.V1_0.Effect.BUTTON_CLICK;
+import static vendor.nameless.hardware.vibratorExt.V1_0.Effect.CLICK;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -29,7 +30,7 @@ import android.net.NetworkCapabilities;
 import android.os.Environment;
 import android.os.PowerManager;
 import android.os.SystemProperties;
-import android.os.VibrationEffect;
+import android.os.VibrationExtInfo;
 import android.os.Vibrator;
 import android.os.storage.StorageManager;
 import android.util.Log;
@@ -367,7 +368,11 @@ public class Utils {
 
     public static void doHapticFeedback(Context context, Vibrator vibrator) {
         if (vibrator != null) {
-            vibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK), VIBRATION_ATTRIBUTES_MISC_SCENES);
+            vibrator.vibrateExt(new VibrationExtInfo.Builder()
+                    .setEffectId(BUTTON_CLICK)
+                    .setFallbackEffectId(CLICK)
+                    .build()
+            );
         }
     }
 
