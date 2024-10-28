@@ -29,8 +29,8 @@ public final class Constants {
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
     static final String PROP_DEVICE = "ro.nameless.device";
     static final String PROP_BUILD_VERSION = "ro.nameless.version";
-    static final String OTA_URL = "https://raw.githubusercontent.com/Nameless-AOSP/OTA/%s/%s/ota.json";
-    static final String CHANGELOG_URL = "https://raw.githubusercontent.com/Nameless-AOSP/OTA/%s/%s/changelog_%s.txt";
-    static final String CHANGELOG_URL_LOCALE = "https://raw.githubusercontent.com/Nameless-AOSP/OTA/%s/%s/changelog_%s-%s-r%s.txt";
+    static final String OTA_URL = "https://raw.githubusercontent.com/Nameless-CLO/android_OTA/%s/%s/ota.json";
+    static final String CHANGELOG_URL = "https://raw.githubusercontent.com/Nameless-CLO/android_OTA/%s/%s/changelog_%s.txt";
+    static final String CHANGELOG_URL_LOCALE = "https://raw.githubusercontent.com/Nameless-CLO/android_OTA/%s/%s/changelog_%s-%s-r%s.txt";
     static final String EXPORT_PATH = "Nameless-Updates/";
 }
