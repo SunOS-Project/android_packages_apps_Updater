@@ -16,8 +16,8 @@
  */
 package org.nameless.updater.misc;
 
-import static vendor.nameless.hardware.vibratorExt.V1_0.Effect.BUTTON_CLICK;
-import static vendor.nameless.hardware.vibratorExt.V1_0.Effect.CLICK;
+import static vendor.nameless.hardware.vibratorExt.Effect.BUTTON_CLICK;
+import static vendor.nameless.hardware.vibratorExt.Effect.CLICK;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
