@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updater.download;
+package org.sun.updater.download;
 
 import android.os.SystemClock;
 import android.util.Log;
@@ -69,7 +69,7 @@ public class HttpURLConnectionClient implements DownloadClient {
     }
 
     private void setExtraHeaders() {
-        mClient.setRequestProperty("User-Agent", "org.nameless.updater");
+        mClient.setRequestProperty("User-Agent", "org.sun.updater");
     }
 
     @Override

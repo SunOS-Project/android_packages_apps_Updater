@@ -1,6 +1,6 @@
--keep class org.nameless.updater.ExportUpdateService
--keep class org.nameless.updater.ExtraCardView
--keep class org.nameless.updater.UpdatesActivity
--keep class org.nameless.updater.UpdatesCheckReceiver
--keep class org.nameless.updater.UpdaterReceiver
--keep class org.nameless.updater.controller.UpdaterService
+-keep class org.sun.updater.ExportUpdateService
+-keep class org.sun.updater.ExtraCardView
+-keep class org.sun.updater.UpdatesActivity
+-keep class org.sun.updater.UpdatesCheckReceiver
+-keep class org.sun.updater.UpdaterReceiver
+-keep class org.sun.updater.controller.UpdaterService

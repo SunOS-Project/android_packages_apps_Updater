@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <org.nameless.updater.ExtraCardView
+        <org.sun.updater.ExtraCardView
             android:id="@+id/local_update_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             extra_card_view:summary="@string/local_update_summary"
             extra_card_view:title="@string/local_update_title" />
 
-        <org.nameless.updater.ExtraCardView
+        <org.sun.updater.ExtraCardView
             android:id="@+id/maintainer_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
             extra_card_view:image="@drawable/ic_maintainers_icon"
             extra_card_view:title="@string/maintainer_info_title" />
 
-        <org.nameless.updater.ExtraCardView
+        <org.sun.updater.ExtraCardView
             android:id="@+id/donate_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             extra_card_view:summary="@string/donate_info_summary"
             extra_card_view:title="@string/donate_info_title" />
 
-        <org.nameless.updater.ExtraCardView
+        <org.sun.updater.ExtraCardView
             android:id="@+id/group_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

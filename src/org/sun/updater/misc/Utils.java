@@ -14,10 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updater.misc;
+package org.sun.updater.misc;
 
-import static vendor.nameless.hardware.vibratorExt.Effect.BUTTON_CLICK;
-import static vendor.nameless.hardware.vibratorExt.Effect.CLICK;
+import static vendor.sun.hardware.vibratorExt.Effect.BUTTON_CLICK;
+import static vendor.sun.hardware.vibratorExt.Effect.CLICK;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -40,11 +40,11 @@ import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.nameless.updater.controller.UpdaterService;
-import org.nameless.updater.model.Update;
-import org.nameless.updater.model.UpdateBaseInfo;
-import org.nameless.updater.model.UpdateInfo;
-import org.nameless.updater.model.UpdateStatus;
+import org.sun.updater.controller.UpdaterService;
+import org.sun.updater.model.Update;
+import org.sun.updater.model.UpdateBaseInfo;
+import org.sun.updater.model.UpdateInfo;
+import org.sun.updater.model.UpdateStatus;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -381,7 +381,7 @@ public class Utils {
         try {
             URL getUrl = new URL(url);
             HttpURLConnection conn = (HttpURLConnection) getUrl.openConnection();
-            conn.setRequestProperty("User-Agent", "org.nameless.updater");
+            conn.setRequestProperty("User-Agent", "org.sun.updater");
             conn.setConnectTimeout(3000);
             conn.connect();
             BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream(), "utf-8"));

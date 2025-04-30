@@ -12,8 +12,8 @@ android_app {
     platform_apis: true,
     privileged: true,
     required: [
-        "privapp_whitelist_org.nameless.updater",
-        "default-permissions_org.nameless.updater",
+        "privapp_whitelist_org.sun.updater",
+        "default-permissions_org.sun.updater",
     ],
     optimize: {
         enabled: true,
@@ -48,17 +48,17 @@ java_import {
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_org.nameless.updater",
+    name: "privapp_whitelist_org.sun.updater",
     system_ext_specific: true,
     sub_dir: "permissions",
-    src: "privapp_whitelist_org.nameless.updater.xml",
+    src: "privapp_whitelist_org.sun.updater.xml",
     filename_from_src: true,
 }
 
 prebuilt_etc {
-    name: "default-permissions_org.nameless.updater",
+    name: "default-permissions_org.sun.updater",
     system_ext_specific: true,
     sub_dir: "default-permissions",
-    src: "default-permissions_org.nameless.updater.xml",
+    src: "default-permissions_org.sun.updater.xml",
     filename_from_src: true,
 }

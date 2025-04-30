@@ -14,24 +14,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updater.model;
+package org.sun.updater.model;
 
-import java.util.ArrayList;
+public enum UpdateStatus {
+    UNKNOWN,
+    STARTING,
+    DOWNLOADING,
+    DOWNLOADED,
+    PAUSED,
+    DOWNLOAD_ERROR,
+    DELETED,
+    VERIFYING,
+    VERIFIED,
+    VERIFICATION_FAILED,
+    INSTALLING,
+    INSTALLATION_FAILED;
 
-public interface UpdateBaseInfo {
-    String getName();
-
-    String getDownloadId();
-
-    long getTimestamp();
-
-    long getRequiredDate();
-
-    String getVersion();
-
-    String getDownloadUrl();
-
-    long getFileSize();
-
-    String getHash();
+    public static final class Persistent {
+        public static final int UNKNOWN = 0;
+        public static final int STARTING_DOWNLOAD = 1;
+        public static final int DOWNLOADING = 2;
+        public static final int VERIFIED = 3;
+    }
 }

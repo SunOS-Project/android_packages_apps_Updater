@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updater;
+package org.sun.updater;
 
 import android.app.AlarmManager;
 import android.app.NotificationChannel;
@@ -29,10 +29,10 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 
 import org.json.JSONException;
-import org.nameless.updater.controller.ABUpdateInstaller;
-import org.nameless.updater.download.DownloadClient;
-import org.nameless.updater.misc.Utils;
-import org.nameless.updater.model.UpdateStatus;
+import org.sun.updater.controller.ABUpdateInstaller;
+import org.sun.updater.download.DownloadClient;
+import org.sun.updater.misc.Utils;
+import org.sun.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

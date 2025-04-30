@@ -14,26 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updater.model;
+package org.sun.updater;
 
-public enum UpdateStatus {
-    UNKNOWN,
-    STARTING,
-    DOWNLOADING,
-    DOWNLOADED,
-    PAUSED,
-    DOWNLOAD_ERROR,
-    DELETED,
-    VERIFYING,
-    VERIFIED,
-    VERIFICATION_FAILED,
-    INSTALLING,
-    INSTALLATION_FAILED;
+import androidx.appcompat.app.AppCompatActivity;
 
-    public static final class Persistent {
-        public static final int UNKNOWN = 0;
-        public static final int STARTING_DOWNLOAD = 1;
-        public static final int DOWNLOADING = 2;
-        public static final int VERIFIED = 3;
-    }
+public abstract class UpdatesListActivity extends AppCompatActivity {
+    public abstract void showSnackbar(int stringId, int duration);
+
+    public abstract void showSnackbar(String text, int duration);
 }

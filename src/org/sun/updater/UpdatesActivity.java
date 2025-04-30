@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updater;
+package org.sun.updater;
 
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -50,22 +50,22 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
-import org.nameless.updater.ExtrasFragment.UpdateListener;
-import org.nameless.updater.controller.ABUpdateInstaller;
-import org.nameless.updater.controller.UpdaterController;
-import org.nameless.updater.controller.UpdaterService;
-import org.nameless.updater.download.DownloadClient;
-import org.nameless.updater.misc.Constants;
-import org.nameless.updater.misc.Utils;
-import org.nameless.updater.model.Update;
-import org.nameless.updater.model.UpdateInfo;
-import org.nameless.updater.model.UpdateStatus;
+import org.sun.updater.ExtrasFragment.UpdateListener;
+import org.sun.updater.controller.ABUpdateInstaller;
+import org.sun.updater.controller.UpdaterController;
+import org.sun.updater.controller.UpdaterService;
+import org.sun.updater.download.DownloadClient;
+import org.sun.updater.misc.Constants;
+import org.sun.updater.misc.Utils;
+import org.sun.updater.model.Update;
+import org.sun.updater.model.UpdateInfo;
+import org.sun.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
 
-import static org.nameless.updater.model.UpdateStatus.UNKNOWN;
+import static org.sun.updater.model.UpdateStatus.UNKNOWN;
 
 public class UpdatesActivity extends UpdatesListActivity implements UpdateListener {
 

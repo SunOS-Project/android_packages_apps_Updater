@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updater.controller;
+package org.sun.updater.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -32,14 +32,14 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.nameless.updater.R;
-import org.nameless.updater.UpdaterReceiver;
-import org.nameless.updater.UpdatesActivity;
-import org.nameless.updater.UpdatesCheckReceiver;
-import org.nameless.updater.misc.Utils;
-import org.nameless.updater.model.Update;
-import org.nameless.updater.model.UpdateInfo;
-import org.nameless.updater.model.UpdateStatus;
+import org.sun.updater.R;
+import org.sun.updater.UpdaterReceiver;
+import org.sun.updater.UpdatesActivity;
+import org.sun.updater.UpdatesCheckReceiver;
+import org.sun.updater.misc.Utils;
+import org.sun.updater.model.Update;
+import org.sun.updater.model.UpdateInfo;
+import org.sun.updater.model.UpdateStatus;
 
 import java.text.NumberFormat;
 

@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.nameless.updater.controller;
+package org.sun.updater.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,11 +22,11 @@ import android.os.SystemClock;
 import android.os.SystemProperties;
 import android.util.Log;
 
-import org.nameless.updater.misc.Constants;
-import org.nameless.updater.misc.FileUtils;
-import org.nameless.updater.misc.Utils;
-import org.nameless.updater.model.UpdateInfo;
-import org.nameless.updater.model.UpdateStatus;
+import org.sun.updater.misc.Constants;
+import org.sun.updater.misc.FileUtils;
+import org.sun.updater.misc.Utils;
+import org.sun.updater.model.UpdateInfo;
+import org.sun.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;
