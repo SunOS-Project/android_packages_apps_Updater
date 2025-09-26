@@ -74,34 +74,25 @@ public class Utils {
     // used to initialize UpdateInfo objects
     private static UpdateInfo parseJsonUpdate(JSONObject object) throws JSONException {
         Update update = new Update();
-        update.setTimestamp(object.getLong("datetime"));
+        update.setTimestamp(object.getLong("timestamp"));
         update.setName(object.getString("filename"));
-        update.setDownloadId(object.getString("id"));
-        update.setType(object.getString("romtype"));
+        update.setDownloadId(object.getString("md5"));
         update.setFileSize(object.getLong("size"));
-        update.setDownloadUrl(object.getString("url"));
+        update.setDownloadUrl(object.getString("download"));
         update.setVersion(object.getString("version"));
         return update;
     }
 
     public static boolean isCompatible(UpdateBaseInfo update) {
-        if (update.getVersion().compareTo(SystemProperties.get(Constants.PROP_BUILD_VERSION)) < 0) {
-            Log.d(TAG, update.getName() + " is older than current Android version");
-            return false;
-        }
         if (!SystemProperties.getBoolean(Constants.PROP_UPDATER_ALLOW_DOWNGRADING, false) &&
                 update.getTimestamp() <= SystemProperties.getLong(Constants.PROP_BUILD_DATE, 0)) {
             Log.d(TAG, update.getName() + " is older than/equal to the current build");
             return false;
         }
-        if (!update.getType().equalsIgnoreCase(SystemProperties.get(Constants.PROP_RELEASE_TYPE))) {
-            Log.d(TAG, update.getName() + " has type " + update.getType());
-            return false;
-        }
-        return true;
+            return true;
     }
 
-    private static boolean compareVersions(String a, String b, boolean allowMajorUpgrades) {
+    private static boolean compareVersions(String a, String b) {
         try {
             int majorA = Integer.parseInt(a.split("\\.")[0]);
             int minorA = Integer.parseInt(a.split("\\.")[1]);
@@ -109,24 +100,15 @@ public class Utils {
             int majorB = Integer.parseInt(b.split("\\.")[0]);
             int minorB = Integer.parseInt(b.split("\\.")[1]);
 
-            // Return early and allow if we allow major version upgrades
-            return (allowMajorUpgrades && majorA > majorB)
-                    || (majorA == majorB && minorA >= minorB);
+            return majorA == majorB && minorA >= minorB;
         } catch (ArrayIndexOutOfBoundsException | NumberFormatException e) {
             return false;
         }
     }
 
     public static boolean canInstall(UpdateBaseInfo update) {
-        boolean allowMajorUpgrades = SystemProperties.getBoolean(
-                Constants.PROP_ALLOW_MAJOR_UPGRADES, false);
-
         return (SystemProperties.getBoolean(Constants.PROP_UPDATER_ALLOW_DOWNGRADING, false) ||
-                update.getTimestamp() > SystemProperties.getLong(Constants.PROP_BUILD_DATE, 0)) &&
-                compareVersions(
-                        update.getVersion(),
-                        SystemProperties.get(Constants.PROP_BUILD_VERSION),
-                        allowMajorUpgrades);
+                update.getTimestamp() > SystemProperties.getLong(Constants.PROP_BUILD_DATE, 0));
     }
 
     public static List<UpdateInfo> parseJson(File file, boolean compatibleOnly)
@@ -162,19 +144,12 @@ public class Utils {
     }
 
     public static String getServerURL(Context context) {
-        String incrementalVersion = SystemProperties.get(Constants.PROP_BUILD_VERSION_INCREMENTAL);
         String device = SystemProperties.get(Constants.PROP_NEXT_DEVICE,
                 SystemProperties.get(Constants.PROP_DEVICE));
-        String type = SystemProperties.get(Constants.PROP_RELEASE_TYPE).toLowerCase(Locale.ROOT);
 
-        String serverUrl = SystemProperties.get(Constants.PROP_UPDATER_URI);
-        if (serverUrl.trim().isEmpty()) {
-            serverUrl = context.getString(R.string.updater_server_url);
-        }
+        String serverUrl = context.getString(R.string.updater_server_url);
 
-        return serverUrl.replace("{device}", device)
-                .replace("{type}", type)
-                .replace("{incr}", incrementalVersion);
+        return serverUrl.replace("{device}", device);
     }
 
     public static String getUpgradeBlockedURL(Context context) {
@@ -402,7 +377,7 @@ public class Utils {
     public static int getUpdateCheckSetting(Context context) {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
         return preferences.getInt(Constants.PREF_AUTO_UPDATES_CHECK_INTERVAL,
-                Constants.AUTO_UPDATES_CHECK_INTERVAL_WEEKLY);
+                Constants.AUTO_UPDATES_CHECK_INTERVAL_DAILY);
     }
 
     public static boolean isUpdateCheckEnabled(Context context) {
@@ -411,10 +386,10 @@ public class Utils {
 
     public static long getUpdateCheckInterval(Context context) {
         switch (Utils.getUpdateCheckSetting(context)) {
+            default:
             case Constants.AUTO_UPDATES_CHECK_INTERVAL_DAILY:
                 return AlarmManager.INTERVAL_DAY;
             case Constants.AUTO_UPDATES_CHECK_INTERVAL_WEEKLY:
-            default:
                 return AlarmManager.INTERVAL_DAY * 7;
             case Constants.AUTO_UPDATES_CHECK_INTERVAL_MONTHLY:
                 return AlarmManager.INTERVAL_DAY * 30;
